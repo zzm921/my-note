@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/计算机网络原理/（网络层）NAT协议详解.md",
+                "file": "技术学习/数据库/数据库基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/计算机网络原理/（网络层）NAT协议详解.md",
+                "file": "技术学习/数据库/数据库基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/计算机网络原理/（网络层）NAT协议详解.md"
+                "file": "技术学习/数据库/数据库基础.md"
               }
             }
           }
@@ -124,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -137,10 +138,16 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/数据库/数据库mysql/mysql常见面试题.md",
+    "技术学习/数据库/数据库mysql/无标题.md",
+    "技术学习/数据库/数据库mysql/MySQL高性能优化规范建议.md",
+    "技术学习/数据库/数据库mysql/mysql事务隔离级别.md",
+    "技术学习/日志系统/elk.md",
+    "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
+    "技术学习/计算机网络原理/（网络层）NAT协议详解.md",
     "images/Pasted image 20240122172251.png",
     "技术学习/阿里云api/负载均衡.md",
     "技术学习/常用工具/apidoc使用说明.md",
-    "技术学习/计算机网络原理/（网络层）NAT协议详解.md",
     "技术学习/计算机网络原理/（网络层）ARP协议详解.md",
     "技术学习/计算机网络原理/（传输层）TCP的三次握手和四次挥手.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
@@ -167,14 +174,8 @@
     "技术学习/node/node学习数据库/eslint.md",
     "技术学习/node/node学习数据库/sequelize.md",
     "技术学习/node/node学习node基础/commonJS.md",
-    "技术学习/node/node学习常见module/validator.md",
-    "技术学习/node/node学习node基础/ECMAScript.md",
-    "技术学习/node/node学习node基础/node进程卡死分析.md",
-    "技术学习/node/node学习node基础/深入浅出的node之异步i-o.md",
-    "技术学习/node/node学习node基础/狼叔：如何正确的学习Node.js.md",
     "images/Pasted image 20240118151820.png",
     "images/Pasted image 20240118151805.png",
-    "images/Pasted image 20240118151750.png",
     "未命名 5.canvas",
     "工作相关/酷旗/接口文档/nlp",
     "未命名 1.canvas",
