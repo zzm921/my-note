@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "03a835eee834f21b",
@@ -136,7 +137,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a689b2a2bf5f943d",
+  "active": "fec38f0316dbf815",
   "lastOpenFiles": [
     "技术学习/typescript/5类.md",
     "技术学习/typescript/4进阶.md",
