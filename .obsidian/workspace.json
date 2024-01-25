@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/typescript/1基础.md",
+                "file": "技术学习/typescript/基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/typescript/1基础.md",
+                "file": "技术学习/typescript/基础知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/typescript/1基础.md"
+                "file": "技术学习/typescript/基础知识.md"
               }
             }
           }
@@ -138,6 +138,11 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/typescript/5类.md",
+    "技术学习/typescript/4进阶.md",
+    "技术学习/typescript/3内置对象.md",
+    "技术学习/typescript/2声明文件.md",
+    "技术学习/typescript/1基础.md",
     "技术学习/数据库/数据库mysql/Mysql索引详解.md",
     "技术学习/数据库/数据库mysql/mysql事务隔离级别.md",
     "技术学习/数据库/数据库mysql/MySQL高性能优化规范建议.md",
@@ -162,9 +167,6 @@
     "技术学习/计算机网络原理/（应用层）DNS域名系统详解.md",
     "技术学习/计算机网络原理/（应用层）应用层常见协议总结.md",
     "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
-    "工作相关/酷旗/工作记事/服务记录.md",
-    "技术学习/计算机网络原理/网络原理基础（下）.md",
-    "技术学习/node/NodeJs事件循环.md",
     "未命名 7.canvas",
     "未命名 6.canvas",
     "images/Pasted image 20240119171146.png",
@@ -174,8 +176,6 @@
     "images/Pasted image 20240119150904.png",
     "images/Pasted image 20240119150817.png",
     "images/Pasted image 20240119150733.png",
-    "技术学习/node/高级.md",
-    "技术学习/node/Promise详解.md",
     "images/Pasted image 20240118151820.png",
     "images/Pasted image 20240118151805.png",
     "未命名 5.canvas",
