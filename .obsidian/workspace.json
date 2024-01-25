@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "03a835eee834f21b",
@@ -137,9 +136,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fec38f0316dbf815",
+  "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
     "技术学习/typescript/5类.md",
+    "技术学习/typescript/基础知识.md",
     "技术学习/typescript/4进阶.md",
     "技术学习/typescript/3内置对象.md",
     "技术学习/typescript/2声明文件.md",
@@ -167,7 +167,6 @@
     "工作相关/酷旗/接口文档/闹钟/闹钟接口文档.md",
     "技术学习/计算机网络原理/（应用层）DNS域名系统详解.md",
     "技术学习/计算机网络原理/（应用层）应用层常见协议总结.md",
-    "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
     "未命名 7.canvas",
     "未命名 6.canvas",
     "images/Pasted image 20240119171146.png",
