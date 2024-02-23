@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/typescript/基础知识.md",
+                "file": "技术学习/node/NodeJs事件循环.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/typescript/基础知识.md",
+                "file": "技术学习/node/NodeJs事件循环.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/typescript/基础知识.md"
+                "file": "技术学习/node/NodeJs事件循环.md"
               }
             }
           }
@@ -138,8 +138,9 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
-    "技术学习/typescript/4进阶.md",
+    "技术学习/node/Promise详解.md",
     "技术学习/typescript/基础知识.md",
+    "技术学习/typescript/4进阶.md",
     "技术学习/typescript/1基础.md",
     "技术学习/typescript/5类.md",
     "技术学习/typescript/3内置对象.md",
@@ -166,7 +167,6 @@
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "工作相关/酷旗/接口文档/闹钟/闹钟接口文档.md",
     "技术学习/计算机网络原理/（应用层）DNS域名系统详解.md",
-    "技术学习/计算机网络原理/（应用层）应用层常见协议总结.md",
     "未命名 7.canvas",
     "未命名 6.canvas",
     "images/Pasted image 20240119171146.png",
