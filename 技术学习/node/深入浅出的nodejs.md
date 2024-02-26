@@ -306,4 +306,4 @@ node以8k为接线来区分buffer是大对象还是小对象。这个8k也就是
 buffer对象可以与字符串直接相互转换，目前支持的字符串编码类型有：ASCII、UTF-8、UTF-16LE/USC-2、Base64、Binary、Hex。
 #### 字符串转buffer
 字符串可以通过buffer构造函数转为buffer对象，存储的只能说一种编码。encoding参数不传递时默认使用utf-8编码进行转码和存储。一个buffer对象可以存储不同编码类型的字符串转码的值，调用write可以实现。 
->>>>>>> 2f67678b7d0274aac0ca9e2d4d2f173a99d1ecf9
+

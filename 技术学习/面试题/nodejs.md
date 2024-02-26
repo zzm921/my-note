@@ -201,3 +201,20 @@ v8主要使用的是mark-sweep，在空间不足以对从新生代晋升过来�
 Buffer.allocUnsafe创建的 Buffer 实例的底层内存是未初始化的。 新创建的 Buffer 的内容是未知的，可能包含敏感数据。 使用 Buffer.alloc() 可以创建以零初始化的 Buffer 实例。
 
 #### buffer的内存分配机制
+为了高效的使用申请来的内存，Node采用了slab分配机制。slab是一种动态的内存管理机制。
+Node以8kb为界限来来区分Buffer为大对象还是小对象，如果是小于8kb就是小Buffer，大于8kb就是大Buffer。
+例如第一次分配一个1024字节的Buffer，Buffer.alloc(1024),那么这次分配就会用到一个slab，接着如果继续Buffer.alloc(1024),那么上一次用的slab的空间还没有用完，因为总共是8kb，1024+1024 = 2048个字节，没有8kb，所以就继续用这个slab给Buffer分配空间。
+如果超过8kb，那么直接用C++底层地宫的SlowBuffer来给Buffer对象提供空间。
+### 进程通信
+#### 请简述一下node的多进程架构
+面对node单线程对多核cpu使用不足的情况，Node提供了child_process模块，来实现进程的复制，node的多进程架构是主从模式。
+![](../../images/Pasted%20image%2020240226214925.png)
+```
+var fork = require('child_process').fork;
+var cpus = require('os').cpus();
+for(var i = 0; i < cpus.length; i++){
+    fork('./worker.js');
+}
+```
+#### 请问创建紫禁城的方法有哪些，简单说一下他们的区别
+- spawn
