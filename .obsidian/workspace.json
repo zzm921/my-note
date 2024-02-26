@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,12 +137,12 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/面试题/nodejs.md",
+    "技术学习/node/深入浅出的nodejs.md",
     "技术学习/node/node学习node基础/深入浅出的node之异步i-o.md",
     "技术学习/node/高级.md",
-    "技术学习/面试题/nodejs.md",
     "images/Pasted image 20240226213326.png",
     "技术学习/需加固问题.md",
-    "技术学习/node/深入浅出的nodejs.md",
     "技术学习/面试题",
     "技术学习/node/js知识.md",
     "技术学习/node/mysql优化.md",
