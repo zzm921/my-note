@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/node/高级.md",
+                "file": "技术学习/node/深入浅出的nodejs.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/node/高级.md",
+                "file": "技术学习/node/深入浅出的nodejs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/node/高级.md"
+                "file": "技术学习/node/深入浅出的nodejs.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/node/高级.md",
     "技术学习/node/深入浅出的nodejs.md",
     "技术学习/node/js知识.md",
     "技术学习/node/mysql优化.md",
@@ -166,7 +167,6 @@
     "images/Pasted image 20240122172251.png",
     "技术学习/阿里云api/负载均衡.md",
     "技术学习/常用工具/apidoc使用说明.md",
-    "技术学习/计算机网络原理/（网络层）ARP协议详解.md",
     "未命名 7.canvas",
     "未命名 6.canvas",
     "images/Pasted image 20240119171146.png",

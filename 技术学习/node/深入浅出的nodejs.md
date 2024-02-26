@@ -57,7 +57,7 @@ function Module(id,parent){
 ##### js核心模块编译过程
 在编译所有的c/c++文件之前，编译程序需要将所有的js模块文件编译为c/c++代码。
 - 转为c/c++代码。node使用v8附带的js2c.py工具，将所有内置js代码(src/node.js和lib/*.js*)转换为c++里面的数组，生成node_natives.h头文件。
-- 编译js核心模块。首先在引入js的核心模块的过程中，经历了模块包装器的过程，然后到处exports对象。js核心模块源文件通过process.binding('natives')去除，编译成功后模块缓存在NativeMode._cache,文件模块则缓存在Module._cache。
+- 编译js核心模块。首先在引入js的核心模块的过程中，经历了模块包装器的过程，然后 到处exports对象。js核心模块源文件通过process.binding('natives')去除，编译成功后模块缓存在NativeMode._cache,文件模块则缓存在Module._cache。
 ```
 function NativeModule(id){
 	this.filename=id+'.js'
