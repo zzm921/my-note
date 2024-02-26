@@ -217,4 +217,25 @@ for(var i = 0; i < cpus.length; i++){
 }
 ```
 #### 请问创建紫禁城的方法有哪些，简单说一下他们的区别
-- spawn
+- spawn():启动一个子进程来执行命令
+- exec():启动一个紫荆城来执行命令，与spawn()不同的是他有一个回调函数获取子进程的状况
+- execFile():启动一个子进程来执行可执行文件
+- fork():和spawn类似，不同点在于它创建node子进程需要执行js文件
+- spawn()与exec()、execFile()不同的是，后两者创建时可以指定timeout属性设置超时时间，一旦创建的进程超过设定的时间就会被杀死
+- exec()与execFile()不同的是，exec()适合执行已有命令，execFile()适合执行文件。
+#### 你知道spawn在创建子进程的时候，第三个参数有一个stdio选项么，这个选项的作用是什么。默认值是什么
+- 选项用于配置在父进程和子进程之间建立管道。
+- 默认情况下，子进程stdin，stdout和sedeer会被重定向到ChildProcess对象上相应的subprocess.stdin、subprocess.stdout 和 subprocess.stderr 流。
+- 这相当于将 options.stdio 设置为 ['pipe', 'pipe', 'pipe']。
+#### 实现一个node子进程被杀死后自动重启的代码思路
+```
+var createWorker = function(){
+    var worker = fork(__dirname + 'worker.js')
+    worker.on('exit', function(){
+        console.log('Worker' + worker.pid + 'exited');
+        // 如果退出就创建新的worker
+        createWorker()
+    })
+}
+
+```
