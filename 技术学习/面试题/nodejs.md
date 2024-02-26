@@ -65,6 +65,7 @@ Module._load=function(request,parent,isMain){
 ```
 #### node导出模块有两种方式，一种是exports.xxx=xxx和module.exports={}。这两中方式有什么区别？
 - exports其实就是module.exports
+- 如果要输出一个键值对象{}，可以利用exports这个已存在的空对象{}，并继续在上面添加新的键值；如果要输出一个函数或数组，必须直接对module.exports对象赋值。
 ```
 module.exports vs exports
 很多时候，你会看到，在Node环境中，有两种方法可以在一个模块中输出变量：
@@ -158,3 +159,9 @@ module.exports = {
 module.exports = function () { return 'foo'; };
 最终，我们强烈建议使用module.exports = xxx的方式来输出模块变量，这样，你只需要记忆一种方法。
 ```
+
+### node的异步I/O
+#### 介绍一下node的事件循环的流程
+- 在进程启动时，node会创建一个类似while(true)的循环，没执行一次循环体的过程我们称为一次Tick。
+- 每个Tick的过程就是查看是否有事件待处理。如果有就取出事件及其回调函数执行。然后进入下一个循环
+#### 每个tick
