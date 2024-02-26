@@ -22,10 +22,29 @@ var module = new Module(filename, parent);
 //require 其实调用了模块内部的_load方法
 Module._load=function(request,parent,isMain){
 	//计算绝对路径
+	var filename=Module._resoveFilename(request,parent)
 	//第一步取出缓存
+	var cachedModule = Module._cache[filename];
+	if (cachedModule) {
+		return cachedModule.exports;
+	}
 	//第二步判断是否为内置模块
+	  if (NativeModule.exists(filename)) {
+	    return NativeModule.require(filename);
+	  }
 	//第三部生成模块实例，存入缓存
+	var module = new Module(filename, parent);
+	  Module._cache[filename] = module;
 	//第四部加载模块
-	//
+	// 下面的module.load实际上是Module原型上有一个方法叫Module.prototype.load
+	try {
+	    module.load(filename);
+	    hadException = false;
+	  } finally {
+	    if (hadException) {
+	      delete Module._cache[filename];
+	    }
+	  }
+	//第五步输出模块的exports
 }
 ```
