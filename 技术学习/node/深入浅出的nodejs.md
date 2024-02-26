@@ -169,7 +169,6 @@ process.nextTick 的优先级要高于 setImmediate。原因是事件循环对�
 
 <<<<<<< HEAD
 还有一个主要的区别是，process.nextTick() 的回调函数保存在数组中，setImmediate() 的回调函数保存在链表中。在行为上，process.nextTick() 在每次轮询中会将数组内全部回调函数执行完，setImmediate() 在每次循环中只执行链表的第一个回调函数。
-=======
 还有一个主要的区别是，process.nextTick() 的回调函数保存在数组中，setImmediate() 的回调函数保存在链表中。在行为上，process.nextTick() 在每次轮询中会将数组内全部回调函数执行完，setImmediate() 在每次循环中只执行链表的第一个回调函数。
 ### 异步编程
 #### 函数式编程
