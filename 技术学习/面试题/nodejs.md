@@ -20,5 +20,12 @@ var module = new Module(filename, parent);
 4. 输出模块的exports属性
 ```
 //require 其实调用了模块内部的_load方法
-Module._load=function(request,parent,isMain)
+Module._load=function(request,parent,isMain){
+	//计算绝对路径
+	//第一步取出缓存
+	//第二步判断是否为内置模块
+	//第三部生成模块实例，存入缓存
+	//第四部加载模块
+	//
+}
 ```
