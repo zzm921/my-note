@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
+                "file": "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
+                "file": "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md"
+                "file": "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md"
               }
             }
           }
@@ -138,6 +138,9 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/数据库/数据库redis/Redis 3 种特殊数据类型详解.md",
+    "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
+    "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/数据库/数据库redis/redis.md",
     "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
     "技术学习/数据库/数据库mysql/无标题.md",
@@ -165,9 +168,6 @@
     "技术学习/node/NodeJs事件循环.md",
     "技术学习/typescript/基础知识.md",
     "技术学习/typescript/4进阶.md",
-    "技术学习/typescript/1基础.md",
-    "技术学习/typescript/5类.md",
-    "技术学习/typescript/3内置对象.md",
     "翻译耳机.pdf",
     "技术学习/微服务",
     "images/Pasted image 20240122172251.png",
