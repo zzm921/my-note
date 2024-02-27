@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/面试题/nodejs.md",
+                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/面试题/nodejs.md",
+                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/面试题/nodejs.md"
+                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md"
               }
             }
           }
@@ -138,8 +138,9 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
-    "技术学习/面试题/计算机网络.md",
+    "技术学习/数据库/数据库mongodb/mongodb.md",
     "技术学习/面试题/nodejs.md",
+    "技术学习/面试题/计算机网络.md",
     "images/Pasted image 20240226214925.png",
     "技术学习/node/深入浅出的nodejs.md",
     "技术学习/node/node学习node基础/深入浅出的node之异步i-o.md",
@@ -168,7 +169,6 @@
     "技术学习/数据库/字符集（待完成）.md",
     "技术学习/数据库/数据库基础.md",
     "技术学习/数据库/NoSQL基础知识.md",
-    "技术学习/日志系统/elk.md",
     "images/Pasted image 20240122172251.png",
     "未命名 7.canvas",
     "未命名 6.canvas",
