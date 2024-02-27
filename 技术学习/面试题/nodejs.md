@@ -237,6 +237,5 @@ var createWorker = function(){
         createWorker()
     })
 }
-
 ```
 
