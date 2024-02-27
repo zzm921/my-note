@@ -19,6 +19,9 @@ var module = new Module(filename, parent);
 3. 如果模块不在缓存则加载模块
 4. 输出模块的exports属性
 ```
+Module.prototype.require=function(id){
+	Module._load(id)
+}
 //require 其实调用了模块内部的_load方法
 Module._load=function(request,parent,isMain){
 	//计算绝对路径
