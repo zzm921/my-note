@@ -19,6 +19,9 @@ var module = new Module(filename, parent);
 3. 如果模块不在缓存则加载模块
 4. 输出模块的exports属性
 ```
+Module.prototype.require=function(id){
+	return Module._load(id)
+}
 //require 其实调用了模块内部的_load方法
 Module._load=function(request,parent,isMain){
 	//计算绝对路径
@@ -29,12 +32,12 @@ Module._load=function(request,parent,isMain){
 		return cachedModule.exports;
 	}
 	//第二步判断是否为内置模块
-	  if (NativeModule.exists(filename)) {
+	if (NativeModule.exists(filename)) {
 	    return NativeModule.require(filename);
-	  }
+	}
 	//第三部生成模块实例，存入缓存
 	var module = new Module(filename, parent);
-	  Module._cache[filename] = module;
+	Module._cache[filename] = module;
 	//第四部加载模块
 	// 下面的module.load实际上是Module原型上有一个方法叫Module.prototype.load
 	try {
@@ -237,6 +240,5 @@ var createWorker = function(){
         createWorker()
     })
 }
-
 ```
 
