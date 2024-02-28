@@ -73,20 +73,20 @@ redis中的hash是一个string类型的field-value的映射表，特别适合用
 redis中的Set类型是一种无须集合，集合中的元素没有先后循序但都唯一。当你需要存储一个列表的数据，又不希望出现重复数据是，set是一个很好的选择，并且Set提供了判断某个元素是否在set集合内的重要接口，这个也是List说不能提供的。
 #### 常用命令
 
-|命令|介绍|
-|---|---|
-|SADD key member1 member2 ...|向指定集合添加一个或多个元素|
-|SMEMBERS key|获取指定集合中的所有元素|
-|SCARD key|获取指定集合的元素数量|
-|SISMEMBER key member|判断指定元素是否在指定集合中|
-|SINTER key1 key2 ...|获取给定所有集合的交集|
-|SINTERSTORE destination key1 key2 ...|将给定所有集合的交集存储在 destination 中|
-|SUNION key1 key2 ...|获取给定所有集合的并集|
-|SUNIONSTORE destination key1 key2 ...|将给定所有集合的并集存储在 destination 中|
-|SDIFF key1 key2 ...|获取给定所有集合的差集|
-|SDIFFSTORE destination key1 key2 ...|将给定所有集合的差集存储在 destination 中|
-|SPOP key count|随机移除并获取指定集合中一个或多个元素|
-|SRANDMEMBER key count|随机获取指定集合中指定数量的元素|
+| 命令                                    | 介绍                          |
+| ------------------------------------- | --------------------------- |
+| SADD key member1 member2 ...          | 向指定集合添加一个或多个元素              |
+| SMEMBERS key                          | 获取指定集合中的所有元素                |
+| SCARD key                             | 获取指定集合的元素数量                 |
+| SISMEMBER key member                  | 判断指定元素是否在指定集合中              |
+| SINTER key1 key2 ...                  | 获取给定所有集合的交集                 |
+| SINTERSTORE destination key1 key2 ... | 将给定所有集合的交集存储在 destination 中 |
+| SUNION key1 key2 ...                  | 获取给定所有集合的并集                 |
+| SUNIONSTORE destination key1 key2 ... | 将给定所有集合的并集存储在 destination 中 |
+| SDIFF key1 key2 ...                   | 获取给定所有集合的差集                 |
+| SDIFFSTORE destination key1 key2 ...  | 将给定所有集合的差集存储在 destination 中 |
+| SPOP key count                        | 随机移除并获取指定集合中一个或多个元素         |
+| SRANDMEMBER key count                 | 随机获取指定集合中指定数量的元素            |
 
 
 ### sorted Set（有序集合）
