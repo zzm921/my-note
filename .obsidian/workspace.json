@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/计算机网络原理/网络原理基础（下）.md",
+                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/计算机网络原理/网络原理基础（下）.md",
+                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/计算机网络原理/网络原理基础（下）.md"
+                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/计算机网络原理/网络原理基础（下）.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "技术学习/面试题/nest.js.md",
     "images/2ff55d9978d0c69024e0966a197a352.png",
@@ -169,7 +170,6 @@
     "技术学习/数据库/数据库基础.md",
     "技术学习/数据库/NoSQL基础知识.md",
     "技术学习/日志系统/elk.md",
-    "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
     "images/Pasted image 20240122172251.png",
     "未命名 7.canvas",
     "未命名 6.canvas",
