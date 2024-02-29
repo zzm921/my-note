@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md",
+                "file": "技术学习/计算机网络原理/网络原理基础（上）.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md",
+                "file": "技术学习/计算机网络原理/网络原理基础（上）.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/数据库/数据库mysql/mysql常见面试题.md"
+                "file": "技术学习/计算机网络原理/网络原理基础（上）.md"
               }
             }
           }
@@ -138,9 +138,9 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/数据库/数据库mysql/mysql常见面试题.md",
     "技术学习/数据库/数据库mysql/mysql三大日志（binlog、redo log和undo log）详解.md",
     "技术学习/数据库/数据库mysql/MySQL高性能优化规范建议.md",
-    "技术学习/数据库/数据库mysql/mysql常见面试题.md",
     "技术学习/数据库/数据库mongodb/mongodb.md",
     "技术学习/数据库/数据库redis/redis.md",
     "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
