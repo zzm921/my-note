@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
+                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
+                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md"
+                "file": "技术学习/数据库/数据库redis/redis常见面试题.md"
               }
             }
           }
@@ -136,8 +136,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "a689b2a2bf5f943d",
+  "active": "fec38f0316dbf815",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "技术学习/数据库/数据库redis/redis常见面试题.md",
+    "技术学习/node/node学习node基础/未命名",
+    "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
+    "技术学习/数据库/数据库redis/Redis 3 种特殊数据类型详解.md",
+    "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
     "技术学习/计算机网络原理/网络原理基础（下）.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "技术学习/面试题/nest.js.md",
@@ -163,13 +169,7 @@
     "技术学习/数据库/数据库mysql/MySQL高性能优化规范建议.md",
     "技术学习/数据库/数据库mysql/mysql常见面试题.md",
     "翻译耳机.pdf",
-    "技术学习/数据库/数据库mysql/无标题.md",
-    "技术学习/数据库/记忆.md",
     "技术学习/微服务",
-    "技术学习/数据库/字符集（待完成）.md",
-    "技术学习/数据库/数据库基础.md",
-    "技术学习/数据库/NoSQL基础知识.md",
-    "技术学习/日志系统/elk.md",
     "images/Pasted image 20240122172251.png",
     "未命名 7.canvas",
     "未命名 6.canvas",
@@ -190,7 +190,6 @@
     "技术学习/windows",
     "技术学习/数据库",
     "工作相关/酷旗/接口文档/教材",
-    "工作相关/酷旗/接口文档/自定义内容",
-    "工作相关/酷旗/接口文档/闹钟"
+    "工作相关/酷旗/接口文档/自定义内容"
   ]
 }
