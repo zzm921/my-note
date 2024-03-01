@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
+                "file": "技术学习/node/常用工具包/puppeteer.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md",
+                "file": "技术学习/node/常用工具包/puppeteer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/数据库/数据库redis/redis常见面试题.md"
+                "file": "技术学习/node/常用工具包/puppeteer.md"
               }
             }
           }
@@ -136,13 +136,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fec38f0316dbf815",
+  "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/node/常用工具包/puppeteer.md",
     "技术学习/node/常用工具包",
     "images/Pasted image 20240229212637.png",
     "conflict-files-obsidian-git.md",
-    "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/node/node学习node基础/未命名",
     "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
     "技术学习/数据库/数据库redis/Redis 3 种特殊数据类型详解.md",
