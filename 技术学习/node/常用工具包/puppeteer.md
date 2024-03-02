@@ -61,3 +61,11 @@ await borwser.close()
     await browser.disconnect();
 
 ```
+
+- puppeteer.launch每次都要重启一个新的chrome进程，启动耗时100-150ms，性能欠佳
+- puppeteer.connect 可以实现对于同一个chrome实例的共用，减少启动关闭浏览器的时间消耗。
+- puppeteer.launch启动时参数可以动态修改
+- 通过puppeteer.connect我们可以远程连接一个chrome实例，不输在不同的机器上
+- puppeteer.connect多个页面共用一个chrome实例，偶尔会出现page crash现场，需要进行并发控制，并定时重启chrome实例。
+### 如何等待记载
+#### 加载导航页面
