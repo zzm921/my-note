@@ -69,3 +69,8 @@ await borwser.close()
 - puppeteer.connect多个页面共用一个chrome实例，偶尔会出现page crash现场，需要进行并发控制，并定时重启chrome实例。
 ### 如何等待记载
 #### 加载导航页面
+- page.goto:打开新页面
+- page.goBack:回退到上一个页面
+- page.goForward：前进道下一个页面
+- page.reload：重新加载页面
+- 
