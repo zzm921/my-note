@@ -78,4 +78,31 @@ await borwser.close()
 #### 等待元素，请求，相应
 - page.waitForXpath：等待xpath对应的元素出现，返回对应的ElementHandle实例
 - page.waitForSelector：等待选择对应的元素出现，返回对应的ElementHandle实例
-- page.waitForResponse
+- page.waitForResponse：等待某个响应结束，返回Response实例
+- page.waitForRequest:等待某个请求出现，返回request实例
+```
+await page.waitForXPath('//img');
+await page.waitForSelector('#uniqueId');
+await page.waitForResponse('https://d.youdata.netease.com/api/dash/hello');
+await page.waitForRequest('https://d.youdata.netease.com/api/dash/hello');
+```
+#### 自定义等待
+- page.waitForFunction：等待在页面中自定义函数的执行结果，返回JShandle实例
+- page.waitFor：设置等待时间。
+```
+await page.goto(url, { 
+    timeout: 120000, 
+    waitUntil: 'networkidle2' 
+});
+//我们可以在页面中定义自己认为加载完的事件，在合适的时间点我们将该事件设置为 true
+//以下是我们项目在触发截图时的判断逻辑，如果 renderdone 出现且为 true 那么就截图，如果是 Object，说明页面加载出错了，我们可以捕获该异常进行提示
+let renderdoneHandle = await page.waitForFunction('window.renderdone', {
+    polling: 120
+});
+const renderdone = await renderdoneHandle.jsonValue();
+if (typeof renderdone === 'object') {
+    console.log(`加载页面失败：报表${renderdone.componentId}出错 -- ${renderdone.message}`);
+}else{
+    console.log('页面加载成功');
+}
+```
