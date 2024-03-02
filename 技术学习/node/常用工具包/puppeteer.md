@@ -73,4 +73,9 @@ await borwser.close()
 - page.goBack:回退到上一个页面
 - page.goForward：前进道下一个页面
 - page.reload：重新加载页面
-- 
+- page.watiFornavigation:等待页面跳转。
+
+#### 等待元素，请求，相应
+- page.waitForXpath：等待xpath对应的元素出现，返回对应的ElementHandle实例
+- page.waitForSelector：等待选择对应的元素出现，返回对应的ElementHandle实例
+- page.waitForResponse
