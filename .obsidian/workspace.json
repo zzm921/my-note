@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/面试题/nest.js.md",
+                "file": "技术学习/typescript/基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/面试题/nest.js.md",
+                "file": "技术学习/typescript/基础知识.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/面试题/nest.js.md"
+                "file": "技术学习/typescript/基础知识.md"
               }
             }
           }
@@ -138,9 +138,9 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/面试题/nest.js.md",
     "技术学习/面试题/mysql.md",
     "技术学习/面试题/nodejs.md",
-    "技术学习/面试题/nest.js.md",
     "技术学习/node/常用工具包/puppeteer.md",
     "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/node/常用工具包",
