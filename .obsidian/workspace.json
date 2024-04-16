@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "旅游生活/旅游/阳朔.md",
+                "file": "旅游生活/随记/开支.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "旅游生活/旅游/阳朔.md",
+                "file": "旅游生活/随记/开支.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "旅游生活/旅游/阳朔.md"
+                "file": "旅游生活/随记/开支.md"
               }
             }
           }
@@ -138,6 +138,8 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "旅游生活/旅游/阳朔.md",
+    "旅游生活/随记/开支.md",
     "旅游生活/旅游/阿尔山.md",
     "技术学习/gitlab/git操作.md",
     "技术学习/gitlab/gitlab-cicd.md",
@@ -169,8 +171,6 @@
     "技术学习/node/Promise详解.md",
     "技术学习/node/NodeJs事件循环.md",
     "技术学习/typescript/4进阶.md",
-    "技术学习/typescript/1基础.md",
-    "技术学习/typescript/5类.md",
     "翻译耳机.pdf",
     "技术学习/微服务",
     "images/Pasted image 20240122172251.png",
