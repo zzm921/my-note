@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/gitlab/gitlab-runner.md",
+                "file": "技术学习/日志系统/elk.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/gitlab/gitlab-runner.md",
+                "file": "技术学习/日志系统/elk.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/gitlab/gitlab-runner.md"
+                "file": "技术学习/日志系统/elk.md"
               }
             }
           }
@@ -138,6 +139,7 @@
   },
   "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
+    "技术学习/gitlab/gitlab-runner.md",
     "旅游生活/随记/开支.md",
     "旅游生活/旅游/阳朔.md",
     "旅游生活/旅游/阿尔山.md",
@@ -170,7 +172,6 @@
     "技术学习/node/mysql优化.md",
     "技术学习/node/Promise详解.md",
     "技术学习/node/NodeJs事件循环.md",
-    "技术学习/typescript/4进阶.md",
     "翻译耳机.pdf",
     "技术学习/微服务",
     "images/Pasted image 20240122172251.png",
