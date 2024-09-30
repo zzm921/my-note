@@ -11,14 +11,11 @@
             "id": "a689b2a2bf5f943d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "技术学习/gitlab/gitlab-runner.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "技术学习/gitlab/gitlab-runner.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "技术学习/gitlab/gitlab-runner.md"
               }
             }
           }
@@ -139,10 +136,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fec38f0316dbf815",
+  "active": "a689b2a2bf5f943d",
   "lastOpenFiles": [
-    "技术学习/日志系统/elk.md",
+    "技术学习/CICD/酷旗自动化构建及部署流程.md",
+    "技术学习/CICD/酷旗自动化构建及快速部署方案.md",
     "未命名.canvas",
+    "技术学习/日志系统/elk.md",
     "技术学习/gitlab/gitlab-runner.md",
     "旅游生活/随记/开支.md",
     "旅游生活/旅游/阳朔.md",
@@ -173,8 +172,6 @@
     "技术学习/面试题",
     "技术学习/node/高级.md",
     "技术学习/node/js知识.md",
-    "技术学习/node/mysql优化.md",
-    "技术学习/node/Promise详解.md",
     "翻译耳机.pdf",
     "技术学习/微服务",
     "images/Pasted image 20240122172251.png",
