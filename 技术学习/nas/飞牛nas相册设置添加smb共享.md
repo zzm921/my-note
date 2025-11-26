@@ -8,3 +8,5 @@ sudo vi /etc/fstab
 
 
 sudo mount -a
+
+参考
