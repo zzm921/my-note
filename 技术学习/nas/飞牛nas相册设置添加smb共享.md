@@ -10,3 +10,9 @@ sudo vi /etc/fstab
 sudo mount -a
 
 参考 https://zhuanlan.zhihu.com/p/21249841926
+
+
+sudo apt-get update
+sudo apt-get install open-vm-tools open-vm-tools-desktop -y
+
+sudo vmhgfs-fuse .host:/ /vol1/1000/vm -o allow_other
