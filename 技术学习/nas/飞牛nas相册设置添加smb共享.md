@@ -9,4 +9,4 @@ sudo vi /etc/fstab
 
 sudo mount -a
 
-参考
+参考 https://zhuanlan.zhihu.com/p/21249841926
