@@ -27,4 +27,4 @@ sudo vmhgfs-fuse .host:/ /vol1/1000/vm -o allow_other
 
 自动配置
 sudo vi /etc/fstab
-host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other,defaults 0 0
+host:/ /vol1/1000/vm fuse.vmhgfs-fuse allow_other,defaults 0 0
