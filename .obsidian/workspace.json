@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/nas/虚拟机安装飞牛nas后，本地文档共享.md",
+                "file": "技术学习/计算机网络原理/网络原理基础（上）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "虚拟机安装飞牛nas后，本地文档共享"
+              "title": "网络原理基础（上）"
             }
           }
         ],
@@ -155,6 +155,8 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
+    "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
     "技术学习/nas/虚拟机安装飞牛nas后，本地文档共享.md",
     "技术学习/nas",
     "技术学习/CICD/酷旗自动化构建及部署流程.md",
@@ -185,11 +187,9 @@
     "技术学习/计算机网络原理/网络原理基础（下）.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "images/2ff55d9978d0c69024e0966a197a352.png",
-    "技术学习/node/深入浅出的nodejs.md",
     "images/Pasted image 20240226214925.png",
     "images/Pasted image 20240226213326.png",
     "技术学习/面试题",
-    "技术学习/node/高级.md",
     "翻译耳机.pdf",
     "技术学习/微服务",
     "images/Pasted image 20240122172251.png",
