@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/计算机网络原理/网络原理基础（上）.md",
+                "file": "技术学习/node/node学习采坑日记/环境安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "网络原理基础（上）"
+              "title": "环境安装"
             }
           }
         ],
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jieba",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,7 +75,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,17 +145,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "bases:Create new base": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "bases:新建数据库": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/node/node学习采坑日记/解决类似 -usr-lib64-libstdc++.md",
+    "技术学习/node/node学习采坑日记/环境安装.md",
+    "技术学习/计算机网络原理/网络原理基础（上）.md",
     "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
     "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
     "技术学习/nas/虚拟机安装飞牛nas后，本地文档共享.md",
@@ -183,9 +187,6 @@
     "技术学习/node/node学习node基础/未命名",
     "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
     "技术学习/数据库/数据库redis/Redis 3 种特殊数据类型详解.md",
-    "技术学习/数据库/数据库redis/3种常用的缓存读写策略.md",
-    "技术学习/计算机网络原理/网络原理基础（下）.md",
-    "技术学习/计算机网络原理/网络原理基础（上）.md",
     "images/2ff55d9978d0c69024e0966a197a352.png",
     "images/Pasted image 20240226214925.png",
     "images/Pasted image 20240226213326.png",
