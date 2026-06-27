@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/node/node学习采坑日记/环境安装.md",
+                "file": "技术学习/Hermes Agent 配置指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "环境安装"
+              "title": "Hermes Agent 配置指南"
             }
           }
         ],
@@ -155,9 +155,9 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/node/node学习采坑日记/环境安装.md",
     "技术学习/Hermes Agent 配置指南.md",
     "技术学习/node/node学习采坑日记/解决类似 -usr-lib64-libstdc++.md",
-    "技术学习/node/node学习采坑日记/环境安装.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
     "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
