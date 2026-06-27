@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jieba",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,8 +75,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +153,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bee1c192bcc3b96",
+  "active": "fec38f0316dbf815",
   "lastOpenFiles": [
     "技术学习/node/node学习采坑日记/解决类似 -usr-lib64-libstdc++.md",
     "技术学习/node/node学习采坑日记/环境安装.md",
