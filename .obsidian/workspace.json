@@ -11,10 +11,14 @@
             "id": "9bee1c192bcc3b96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "技术学习/计算机网络原理/（传输层）TCP的三次握手和四次挥手.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "（传输层）TCP的三次握手和四次挥手"
             }
           }
         ],
@@ -124,12 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "技术学习/计算机网络原理/（传输层）TCP的三次握手和四次挥手.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "（传输层）TCP的三次握手和四次挥手 的大纲"
             }
           }
         ],
@@ -153,6 +158,9 @@
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
     "技术学习/阿里云api/负载均衡.md",
+    "技术学习/虚拟机/centos.md",
+    "未命名 1.canvas",
+    "技术学习/windows/激活.md",
     "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
     "runners.md",
     "技术学习/gitlab/gitlab-runner.md",
@@ -178,8 +186,6 @@
     "技术学习/面试题/nest.js.md",
     "技术学习/面试题/mysql.md",
     "技术学习/面试题/nodejs.md",
-    "技术学习/node/常用工具包/puppeteer.md",
-    "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/node/常用工具包",
     "images/Pasted image 20240229212637.png",
     "技术学习/node/node学习node基础/未命名",
@@ -199,7 +205,6 @@
     "images/Pasted image 20240119150904.png",
     "未命名 5.canvas",
     "工作相关/酷旗/接口文档/nlp",
-    "未命名 1.canvas",
     "未命名 4.canvas",
     "技术学习/计算机网络原理",
     "未命名 3.canvas",
