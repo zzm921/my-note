@@ -1,4 +1,6 @@
-HTTP 状态码用于描述 HTTP 请求的结果，比如 2xx 就代表请求被成功处理。
+HTTP 状态码用于描述 HTTP 请求的结果
+
+**关联笔记：** [[HTTP vs HTTPS]] | [[OSI和TCPIP网络分层模型详解]] | [[（应用层）应用层常见协议总结]]，比如 2xx 就代表请求被成功处理。
 ![[Pasted image 20240115101741.png]]
 #### 1XX InFormationnal（信息性状态码）
 #### 2xx Success（成功状态码）

@@ -1,4 +1,6 @@
 ### NodeJs事件循环
+
+**关联笔记：** [[Promise详解]] | [[深入浅出的nodejs]] | [[node学习node基础/commonJS]] | [[node学习node基础/ECMAScript]]
 node底层使用的语言是libuv，是一个c++语言，他是用来操作底层和操作系统，封装了操作系统接口。Node事件循环是用libuv写的，所有Node的生命周期和浏览器还是有区别的。
 ### 事件循环图
 事件循环图：
