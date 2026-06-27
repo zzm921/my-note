@@ -1,4 +1,6 @@
 #### 手写Promise
+
+**关联笔记：** [[NodeJs事件循环]] | [[node学习node基础/ECMAScript]] | [[前端/js]]
 参考 https://segmentfault.com/a/1190000040545826
 ![[Pasted image 20240104153229.png]]
 ```
