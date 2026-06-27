@@ -11,14 +11,10 @@
             "id": "9bee1c192bcc3b96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术学习/Hermes Agent 配置指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hermes Agent 配置指南"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ],
@@ -128,10 +124,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术学习/gitlab/gitlab-runner.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gitlab-runner 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -139,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,19 +152,21 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
-    "技术学习/node/node学习采坑日记/环境安装.md",
+    "技术学习/阿里云api/负载均衡.md",
+    "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
+    "runners.md",
+    "技术学习/gitlab/gitlab-runner.md",
     "技术学习/Hermes Agent 配置指南.md",
+    "技术学习/node/node学习采坑日记/环境安装.md",
     "技术学习/node/node学习采坑日记/解决类似 -usr-lib64-libstdc++.md",
     "技术学习/计算机网络原理/网络原理基础（上）.md",
     "技术学习/计算机网络原理/OSI和TCPIP网络分层模型详解.md",
-    "技术学习/计算机网络原理/（传输层）TCP传输可靠性保障.md",
     "技术学习/nas/虚拟机安装飞牛nas后，本地文档共享.md",
     "技术学习/nas",
     "技术学习/CICD/酷旗自动化构建及部署流程.md",
     "技术学习/CICD/酷旗自动化构建及快速部署方案.md",
     "未命名.canvas",
     "技术学习/日志系统/elk.md",
-    "技术学习/gitlab/gitlab-runner.md",
     "旅游生活/随记/开支.md",
     "旅游生活/旅游/阳朔.md",
     "旅游生活/旅游/阿尔山.md",
@@ -183,9 +182,7 @@
     "技术学习/数据库/数据库redis/redis常见面试题.md",
     "技术学习/node/常用工具包",
     "images/Pasted image 20240229212637.png",
-    "conflict-files-obsidian-git.md",
     "技术学习/node/node学习node基础/未命名",
-    "技术学习/数据库/数据库redis/redis 5中基本数据类型详解.md",
     "images/2ff55d9978d0c69024e0966a197a352.png",
     "images/Pasted image 20240226214925.png",
     "images/Pasted image 20240226213326.png",
