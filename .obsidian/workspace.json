@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/gitlab/gitlab-runner.md",
+                "file": "技术学习/计算机网络原理/（传输层）TCP的三次握手和四次挥手.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "gitlab-runner 的反向链接列表"
+              "title": "（传输层）TCP的三次握手和四次挥手 的反向链接列表"
             }
           },
           {
@@ -137,8 +137,7 @@
               "title": "（传输层）TCP的三次握手和四次挥手 的大纲"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bee1c192bcc3b96",
+  "active": "692fda68793ea9a3",
   "lastOpenFiles": [
     "技术学习/阿里云api/负载均衡.md",
     "技术学习/虚拟机/centos.md",
