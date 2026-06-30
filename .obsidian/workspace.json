@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI热点日报/2026-06-28.md",
+                "file": "AI热点日报/2026-06-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-28"
+              "title": "2026-06-30"
             }
           }
         ],
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI热点日报/2026-06-28.md",
+                "file": "AI热点日报/2026-06-30.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-06-28 的反向链接列表"
+              "title": "2026-06-30 的反向链接列表"
             }
           },
           {
@@ -156,10 +156,13 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "AI热点日报/2026-06-29.md",
+    "AI热点日报/2026-06-28.md",
+    "技术学习/诗词AI Agent 技术设计方案.md",
+    "AI热点日报/2026-06-30.md",
     "AI热点日报/2026-06-27.md",
     "技术学习/大模型与AI Agent 技术资源汇总.md",
     "新建文本文档.txt",
-    "AI热点日报/2026-06-28.md",
     "AI热点日报",
     "技术学习/面试题/nest.js.md",
     "技术学习/前端/CSS.md",
@@ -184,8 +187,6 @@
     "技术学习/CICD/酷旗自动化构建及快速部署方案.md",
     "未命名.canvas",
     "旅游生活/随记/开支.md",
-    "旅游生活/旅游/阳朔.md",
-    "旅游生活/旅游/阿尔山.md",
     "技术学习/node/常用工具包",
     "images/Pasted image 20240229212637.png",
     "技术学习/node/node学习node基础/未命名",
