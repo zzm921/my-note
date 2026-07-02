@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/从机器学习到大模型-技术演进关键节点.md",
+                "file": "自研项目/诗词KG-RAG_Agent方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从机器学习到大模型-技术演进关键节点"
+              "title": "诗词KG-RAG_Agent方案"
             }
           }
         ],
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/从机器学习到大模型-技术演进关键节点.md",
+                "file": "自研项目/诗词KG-RAG_Agent方案.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "从机器学习到大模型-技术演进关键节点 的反向链接列表"
+              "title": "诗词KG-RAG_Agent方案 的反向链接列表"
             }
           },
           {
@@ -154,13 +154,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fec38f0316dbf815",
+  "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/从机器学习到大模型-技术演进关键节点.md",
     "自研项目/诗词KG-RAG_Agent方案.md",
     "自研项目/未命名",
     "自研项目",
     "AI热点日报/2026-07-01.md",
-    "技术学习/从机器学习到大模型-技术演进关键节点.md",
     "AI热点日报/2026-06-30.md",
     "AI热点日报/2026-06-29.md",
     "AI热点日报/2026-06-28.md",
