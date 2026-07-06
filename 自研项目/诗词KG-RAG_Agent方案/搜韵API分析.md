@@ -61,15 +61,15 @@ tags: [搜韵, 诗词知识图谱, API分析, 技术调研]
 
 ### 1.5 日历 / 时间
 
-| 接口 | 方法 | 用途 |
-|------|------|------|
-| `/api/calendar` | GET | 总览 |
-| `/api/calendar/dynasty` | GET | 按朝代浏览 |
-| `/api/calendar/eraYear/{name}` | GET | 查看某年号详情（如"宋绍兴"） |
-| `/api/calendar/date/{date}` | GET | 查某一年（如"901年"） |
-| `/api/calendar/date/{date}` | GET | 查某一具体日期（如"宋绍兴五年七月丁酉"） |
-| `/api/calendar/GanZhi/{ganzhi}` | GET | 查历代某一干支年（如"庚子"） |
-| `/api/calendar/date/{date}/links` | GET | 查询与某一时间相关的链接 |
+| 接口                                | 方法  | 用途                    |
+| --------------------------------- | --- | --------------------- |
+| `/api/calendar`                   | GET | 总览                    |
+| `/api/calendar/dynasty`           | GET | 按朝代浏览                 |
+| `/api/calendar/eraYear/{name}`    | GET | 查看某年号详情（如"宋绍兴"）       |
+| `/api/calendar/date/{date}`       | GET | 查某一年（如"901年"）         |
+| `/api/calendar/date/{date}`       | GET | 查某一具体日期（如"宋绍兴五年七月丁酉"） |
+| `/api/calendar/GanZhi/{ganzhi}`   | GET | 查历代某一干支年（如"庚子"）       |
+| `/api/calendar/date/{date}/links` | GET | 查询与某一时间相关的链接          |
 
 ### 1.6 工具类
 
@@ -136,16 +136,16 @@ tags: [搜韵, 诗词知识图谱, API分析, 技术调研]
 
 ### ✅ 可以直接用的接口
 
-| 接口 | 用途 | 价值判断 |
-|------|------|---------|
-| **`/api/writing/{id}/labelize`** | 自动笺注 | **高**。你返回诗词时如果有笺注信息，体验会好很多。不需要自己建笺注能力 |
-| **`/api/tool/reference`** | 化用分析 | **高**。"这句诗出自哪里"——这是诗词 Agent 很常见的追问场景 |
-| **`/api/tool/charsetConvert`** | 繁简转换 | **中**。如果用户输入繁体或数据有繁体，需要转换 |
-| **`/api/writing/SimilarClauses/{key}`** | 相似句子 | **高**。和你的"找意境相似的诗词"直接相关，可作为向量检索的补充/备选 |
-| **`/api/writing/SameRhymes/{key}`** | 同韵作品 | **中**。如果用户想找押韵的诗词，这个接口直接给答案 |
-| **`/api/writing/{id}/tones`** | 平仄标注 | **中**。如果你要做诗词格律分析 |
-| **`/api/rhyme`** 系列 | 韵书查询 | **低**。只有专业用户才会用到 |
-| **`/api/ciTune/pattern`** | 平仄匹配词牌 | **低**。创作辅助场景 |
+| 接口                                      | 用途     | 价值判断                                  |
+| --------------------------------------- | ------ | ------------------------------------- |
+| **`/api/writing/{id}/labelize`**        | 自动笺注   | **高**。你返回诗词时如果有笺注信息，体验会好很多。不需要自己建笺注能力 |
+| **`/api/tool/reference`**               | 化用分析   | **高**。"这句诗出自哪里"——这是诗词 Agent 很常见的追问场景  |
+| **`/api/tool/charsetConvert`**          | 繁简转换   | **中**。如果用户输入繁体或数据有繁体，需要转换             |
+| **`/api/writing/SimilarClauses/{key}`** | 相似句子   | **高**。和你的"找意境相似的诗词"直接相关，可作为向量检索的补充/备选 |
+| **`/api/writing/SameRhymes/{key}`**     | 同韵作品   | **中**。如果用户想找押韵的诗词，这个接口直接给答案           |
+| **`/api/writing/{id}/tones`**           | 平仄标注   | **中**。如果你要做诗词格律分析                     |
+| **`/api/rhyme`** 系列                     | 韵书查询   | **低**。只有专业用户才会用到                      |
+| **`/api/ciTune/pattern`**               | 平仄匹配词牌 | **低**。创作辅助场景                          |
 
 ### ⚠️ 部分可用，但需要改造
 

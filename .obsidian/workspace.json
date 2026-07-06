@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "项目需求与技术计划 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -154,12 +153,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bee1c192bcc3b96",
+  "active": "fec38f0316dbf815",
   "lastOpenFiles": [
-    "自研项目/诗词KG-RAG_Agent方案.md",
+    "自研项目/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
+    "自研项目/诗词KG-RAG_Agent方案/未命名",
     "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
-    "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
+    "自研项目/诗词KG-RAG_Agent方案.md",
     "自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md",
+    "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
     "ai-re-dian-ri-bao/README.md",
     "AI热点日报/2026-07-05.md",
     "AI热点日报/2026-07-04.md",
@@ -188,10 +189,8 @@
     "ji-shu-xue-xi/node/node-xue-xi-cai-keng-ri-ji/README.md",
     "ji-shu-xue-xi/node/chang-yong-gong-ju-bao/README.md",
     "ji-shu-xue-xi/zi-ran-yu-yan-chu-li/README.md",
-    "ji-shu-xue-xi/yu-yin-shi-bie/README.md",
     "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-redis",
     "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-mysql",
-    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-mongodb",
     "未命名 1.canvas",
     "未命名.canvas",
     "images/Pasted image 20240229212637.png",
