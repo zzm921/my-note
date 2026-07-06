@@ -127,7 +127,7 @@
     * [nest.js](技术学习/面试题/nest.js.md)
     * [nodejs](技术学习/面试题/nodejs.md)
 * [自研项目](zi-yan-xiang-mu/README.md)
-  * [诗词 KG-RAG Agent 方案文档](自研项目/诗词KG-RAG_Agent方案.md)
+  * [诗词 KG-RAG Agent 方案文档](zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md)
   * [诗词KG-RAG\_Agent方案](zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md)
     * [搜韵诗词知识图谱 API 整理 & 可用性分析](自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md)
     * [搜韵 API 实测分析](自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md)
