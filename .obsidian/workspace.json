@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "项目需求与技术计划 的反向链接列表"
             }
           },
           {
@@ -153,14 +154,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fec38f0316dbf815",
+  "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "自研项目/诗词KG-RAG_Agent方案.md",
     "AI热点日报/2026-07-06.md",
     "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
     "自研项目/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
     "自研项目/诗词KG-RAG_Agent方案/未命名",
     "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
-    "自研项目/诗词KG-RAG_Agent方案.md",
     "自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md",
     "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
     "ai-re-dian-ri-bao/README.md",
