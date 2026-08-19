@@ -42,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -105,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-07-10 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -154,8 +156,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bee1c192bcc3b96",
+  "active": "fec38f0316dbf815",
   "lastOpenFiles": [
+    "AI热点日报/2026-08-19.md",
+    "AI热点日报/2026-08-18.md",
+    "AI热点日报/2026-08-17.md",
+    "AI热点日报/2026-08-16.md",
+    "AI热点日报/2026-08-15.md",
+    "AI热点日报/2026-08-14.md",
+    "AI热点日报/2026-08-13.md",
+    "AI热点日报/2026-08-12.md",
+    "AI热点日报/2026-08-11.md",
+    "AI热点日报/2026-08-10.md",
+    "AI热点日报/2026-08-09.md",
+    "AI热点日报/2026-08-08.md",
+    "AI热点日报/2026-08-07.md",
+    "AI热点日报/2026-08-06.md",
+    "AI热点日报/2026-08-04.md",
+    "AI热点日报/2026-08-02.md",
+    "AI热点日报/2026-08-01.md",
     "AI热点日报/2026-07-16.md",
     "AI热点日报/2026-07-14.md",
     "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
@@ -165,27 +184,10 @@
     "AI热点日报/2026-07-08.md",
     "AI热点日报/2026-07-07.md",
     "自研项目/诗词KG-RAG_Agent方案.md",
-    "AI热点日报/2026-07-06.md",
-    "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
-    "自研项目/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
     "自研项目/诗词KG-RAG_Agent方案/未命名",
-    "自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md",
-    "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
-    "ai-re-dian-ri-bao/README.md",
-    "AI热点日报/2026-07-05.md",
-    "AI热点日报/2026-07-04.md",
-    "AI热点日报/2026-07-02.md",
-    "AI热点日报/2026-07-01.md",
-    "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md",
     "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1",
-    "zi-yan-xiang-mu/README.md",
     "zi-yan-xiang-mu",
-    "l-you-sheng-huo/sui-ji/README.md",
-    "l-you-sheng-huo/huai-yun/README.md",
-    "l-you-sheng-huo/l-you/README.md",
-    "l-you-sheng-huo/hun-li/README.md",
     "l-you-sheng-huo/sui-ji",
-    "l-you-sheng-huo/README.md",
     "l-you-sheng-huo/huai-yun",
     "l-you-sheng-huo/l-you",
     "l-you-sheng-huo/hun-li",
