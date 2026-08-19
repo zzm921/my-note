@@ -1,42 +1,30 @@
-升级须知
-升级须知
-gitlab跨大版本容易出错，需按照官方版本一步一步进行升级，升级前做好数据备份
+# gitlab升级指南--安装包
 
+升级须知 升级须知 gitlab跨大版本容易出错，需按照官方版本一步一步进行升级，升级前做好数据备份
 
-### 方案介绍
-公司原版本为源码安装gitlab6.9，由于源码安装升级麻烦，先将版本迁移到rpm版本，再由rpm版本进行升级。
-升级路径为
-6.9.2-> 7.10.4->8.2->8.11.0 -> 8.12.0 -> 8.17.7 -> 9.5.10 -> 10.8.7 -> 11.11.8 -> 12.0.12 -> 12.1.17 -> 12.10.14 -> 13.0.14 -> 13.1.11 -> 13.8.8 -> 13.12.15 -> 14.0.12 -> 14.9.0
-路径参考
-https://doc.devpod.cn/gitlab/gitlab-4980764.html#GitLab%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7%E8%B7%AF%E5%BE%84-GitLab%E5%8D%87%E7%BA%A7%E8%B7%AF%E5%BE%84%E7%A4%BA%E4%BE%8B
+#### 方案介绍
 
-由于ubuntu14 只支持到 gitlab11.10.8，所以此次升级路线为
-6.9.2-> 7.10.4->8.2->8.11.0 -> 8.12.0 -> 8.17.7 -> 9.5.10 -> 10.8.7 -> 11.10.8
+公司原版本为源码安装gitlab6.9，由于源码安装升级麻烦，先将版本迁移到rpm版本，再由rpm版本进行升级。 升级路径为 6.9.2-> 7.10.4->8.2->8.11.0 -> 8.12.0 -> 8.17.7 -> 9.5.10 -> 10.8.7 -> 11.11.8 -> 12.0.12 -> 12.1.17 -> 12.10.14 -> 13.0.14 -> 13.1.11 -> 13.8.8 -> 13.12.15 -> 14.0.12 -> 14.9.0 路径参考 https://doc.devpod.cn/gitlab/gitlab-4980764.html#GitLab%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7%E8%B7%AF%E5%BE%84-GitLab%E5%8D%87%E7%BA%A7%E8%B7%AF%E5%BE%84%E7%A4%BA%E4%BE%8B
 
+由于ubuntu14 只支持到 gitlab11.10.8，所以此次升级路线为 6.9.2-> 7.10.4->8.2->8.11.0 -> 8.12.0 -> 8.17.7 -> 9.5.10 -> 10.8.7 -> 11.10.8
 
 测试时发现 gitlab11需要的postgresql需要9.6
 
+#### 数据备份
 
+安装包 gitlab-rake gitlab:backup:create 源码安装 sudo -u git -H bundle exec rake gitlab:backup:create RAILS\_ENV=production docker安装 docker exec -t gitlab-rake gitlab:backup:create
 
+#### 从源码转为rpm安装
 
-### 数据备份
-安装包
-gitlab-rake gitlab:backup:create
-源码安装
-sudo -u git -H bundle exec rake gitlab:backup:create RAILS_ENV=production
-docker安装
-docker exec -t gitlab-rake gitlab:backup:create
+**安装包安装gitlab6.9.2**
 
-### 从源码转为rpm安装
-#### 安装包安装gitlab6.9.2
+参考 https://blog.securityevaluators.com/upgrading-gitlab-ce-from-a-6-9-2-source-installation-to-10-1-0-omnibus-a-novel-cf8c4f78bf99
 
-参考
-https://blog.securityevaluators.com/upgrading-gitlab-ce-from-a-6-9-2-source-installation-to-10-1-0-omnibus-a-novel-cf8c4f78bf99
+**前期准备**
 
-
-#### 前期准备
-脚本  
+脚本\
 我们的机器安装了多个版本的 PostgreSQL，所以为了让 GitLab 满意，我必须做一些符号链接，`/usr/bin/pg_dump`并`/usr/bin/psql`指向适当的版本
+
 ```
 mv /opt/gitlab/embedded/bin/psql /opt/gitlab/embedded/bin/psql.bak
 
@@ -47,7 +35,8 @@ ln -s /usr/bin/psql /opt/gitlab/embedded/bin/psql
 ln -s /usr/bin/pg_dump /opt/gitlab/embedded/bin/pg_dump
 ```
 
-#### 备份gitlab数据
+**备份gitlab数据**
+
 ```
 cd /home/git/gitlab
 
@@ -61,9 +50,10 @@ sudo -u git -H bundle exec rake gitlab:backup:create RAILS_ENV=production
 
 这应该在目录中创建一个备份文件`/home/git/gitlab/tmp/backups/`
 
+**rpm安装gitlab6.9**
 
-#### rpm安装gitlab6.9
-###### 创建gitlab配置文件 `gitlab.rb`
+**创建gitlab配置文件 `gitlab.rb`**
+
 ```
 external_url ' [http://not.the.actual.url']
 
@@ -88,7 +78,7 @@ gitlab_rails['smtp_pool'] = false
 
 ```
 
-###### 安装
+**安装**
 
 ```
 
@@ -130,8 +120,7 @@ gitlab-rake gitlab:check SANITIZE=true
 
 ```
 
-
-#### 升级到 7.10.4
+**升级到 7.10.4**
 
 ```
 dpkg -i ./gitlab-ce_7.10.4~omnibus-1_amd64.deb
@@ -155,7 +144,8 @@ CREATE EXTENSION pg_trgm;
 
 ```
 
-#### 升级到 8.10.0
+**升级到 8.10.0**
+
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_8.10.0-ce.1_amd64.deb/download.deb
 
@@ -174,7 +164,8 @@ sh ./fix_psql_links.sh
 
 ```
 
-#### 升级到 8.11.0
+**升级到 8.11.0**
+
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_8.11.0-ce.1_amd64.deb/download.deb
 
@@ -198,7 +189,8 @@ sudo ./fix_psql_links.sh
 
 ```
 
-#### 升级到  `8.17.7`
+**升级到  `8.17.7`**
+
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_8.17.7-ce.0_amd64.deb/download.deb
 
@@ -214,8 +206,8 @@ sudo gitlab-ctl restart
 
 ```
 
+**升级到 9.5.10**
 
-#### 升级到  9.5.10
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_9.5.10-ce.0_amd64.deb/download.deb
 
@@ -229,7 +221,8 @@ sudo gitlab-ctl restart
 
 ```
 
-#### 升级到10.8.7
+**升级到10.8.7**
+
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_9.5.10-ce.0_amd64.deb/download.deb
 
@@ -243,8 +236,8 @@ sudo gitlab-ctl restart
 
 ```
 
+**升级到11.10.8**
 
-#### 升级到11.10.8
 ```
 wget --content-disposition https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce_11.10.8-ce.0_amd64.deb/download.deb
 
@@ -256,4 +249,3 @@ sudo gitlab-ctl reconfigure
 sudo gitlab-ctl restart 
 
 ```
-

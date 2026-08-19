@@ -6,5 +6,13 @@
       ],
       "key": "S"
     }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F5"
+    }
   ]
 }
