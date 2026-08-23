@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/agent/agent.md",
+                "file": "技术学习/rag/rag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent"
+              "title": "rag"
             }
           }
         ],
@@ -159,8 +159,10 @@
   },
   "active": "42953066312a4159",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "技术学习/agent/agent.md",
+    "技术学习/rag/rag.md",
+    "技术学习/rag",
+    "conflict-files-obsidian-git.md",
     "技术学习/agent/agent记忆.md",
     "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md",
     "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
@@ -193,8 +195,6 @@
     "ji-shu-xue-xi/node/node-xue-xi-vscode-shi-yong/README.md",
     "ji-shu-xue-xi/node/node-xue-xi-shu-ju-ku/README.md",
     "ji-shu-xue-xi/node/node-xue-xi-node-ji-chu/README.md",
-    "ji-shu-xue-xi/node/node-xue-xi-cai-keng-ri-ji/README.md",
-    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-redis",
     "未命名 1.canvas",
     "未命名.canvas",
     "images/Pasted image 20240229212637.png",
