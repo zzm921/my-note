@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/从机器学习到大模型-技术演进关键节点.md",
+                "file": "技术学习/agent/01-基础概念/01-Agent是什么.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从机器学习到大模型-技术演进关键节点"
+              "title": "01-Agent是什么"
             }
           }
         ],
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/从机器学习到大模型-技术演进关键节点.md",
+                "file": "技术学习/agent/01-基础概念/01-Agent是什么.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +158,8 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/agent/00-Agent知识体系总览.md",
+    "技术学习/从机器学习到大模型-技术演进关键节点.md",
     "技术学习/大模型与AI Agent 技术资源汇总.md",
     "技术学习/agent/agent实施步骤.md",
     "技术学习/agent/04-构建范式/05-多Agent编排范式.md",
@@ -186,8 +188,6 @@
     "技术学习/agent/06-测评优化/02-基准与数据集.md",
     "技术学习/agent/06-测评优化/01-测评体系.md",
     "技术学习/agent/06-测评优化",
-    "技术学习/agent/05-工程实现/05-容错重试与可观测性.md",
-    "技术学习/agent/05-工程实现/04-权限与安全护栏.md",
     "技术学习/agent/05-工程实现",
     "技术学习/agent/02-核心架构",
     "技术学习/agent/01-基础概念",
