@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f167a7e5092fd5b",
+        "id": "81a4bfbd07b51618",
         "type": "tabs",
         "children": [
           {
-            "id": "42953066312a4159",
+            "id": "9bee1c192bcc3b96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/从机器学习到大模型-技术演进关键节点.md",
+                "file": "技术学习/agent/agent实施步骤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从机器学习到大模型-技术演进关键节点"
+              "title": "agent实施步骤"
             }
           }
         ],
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/agent/agent.md",
+                "file": "技术学习/agent/agent实施步骤.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,44 +156,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "42953066312a4159",
+  "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
-    "技术学习/大模型与AI Agent 技术资源汇总.md",
-    "技术学习/诗词AI Agent 技术设计方案.md",
-    "技术学习/rag/rag.md",
-    "技术学习/agent/agent测评.md",
-    "技术学习/agent/agent.md",
-    "技术学习/rag",
-    "conflict-files-obsidian-git.md",
     "技术学习/agent/agent记忆.md",
-    "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md",
-    "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
+    "技术学习/rag/advance rag.md",
+    "技术学习/rag/naive  rag.md",
+    "技术学习/rag/Rag 评估.md",
+    "技术学习/rag",
+    "AI热点日报/2026-08-24.md",
+    "AI热点日报/2026-08-23.md",
+    "AI热点日报/2026-08-22.md",
+    "AI热点日报/2026-08-21.md",
+    "技术学习/agent/agent实施步骤.md",
+    "技术学习/agent/agent.md",
+    "技术学习/agent/智能体构建范式.md",
+    "AI热点日报/2026-08-20.md",
+    "技术学习/未命名.md",
+    "技术学习/agent",
+    "AI热点日报/2026-07-10.md",
+    "AI热点日报/2026-08-19.md",
+    "AI热点日报/2026-08-18.md",
+    "AI热点日报/2026-08-17.md",
+    "AI热点日报/2026-08-16.md",
+    "AI热点日报/2026-08-15.md",
+    "AI热点日报/2026-08-14.md",
+    "AI热点日报/2026-08-13.md",
+    "AI热点日报/2026-08-12.md",
+    "AI热点日报/2026-08-11.md",
+    "AI热点日报/2026-08-10.md",
+    "AI热点日报/2026-08-09.md",
+    "AI热点日报/2026-08-08.md",
+    "自研项目/诗词KG-RAG_Agent方案/未命名",
     "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1",
-    "zi-yan-xiang-mu/README.md",
     "zi-yan-xiang-mu",
-    "l-you-sheng-huo/sui-ji/README.md",
-    "l-you-sheng-huo/hun-li/README.md",
-    "l-you-sheng-huo/l-you/README.md",
-    "l-you-sheng-huo/huai-yun/README.md",
     "l-you-sheng-huo/sui-ji",
-    "l-you-sheng-huo/README.md",
+    "l-you-sheng-huo/huai-yun",
     "l-you-sheng-huo/l-you",
     "l-you-sheng-huo/hun-li",
-    "l-you-sheng-huo/huai-yun",
     "l-you-sheng-huo",
-    "技术学习/agent/智能体构建范式.md",
-    "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
-    "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
-    "自研项目/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
-    "自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md",
-    "自研项目/诗词KG-RAG_Agent方案",
-    "自研项目",
-    "技术学习/未命名.md",
-    "技术学习/从机器学习到大模型-技术演进关键节点.md",
-    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-redis/README.md",
-    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-mysql/README.md",
-    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-mongodb/README.md",
-    "ji-shu-xue-xi/node/node-xue-xi-vscode-shi-yong/README.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "images/Pasted image 20240229212637.png",
