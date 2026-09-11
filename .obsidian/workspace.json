@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/agent/01-基础概念/01-Agent是什么.md",
+                "file": "技术学习/agent/01-基础概念/02-Agent与LLM、RAG的区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Agent是什么"
+              "title": "02-Agent与LLM、RAG的区别"
             }
           }
         ],
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/agent/01-基础概念/01-Agent是什么.md",
+                "file": "技术学习/agent/01-基础概念/02-Agent与LLM、RAG的区别.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,22 +158,27 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
+    "技术学习/agent/01-基础概念/01-Agent是什么.md",
+    "技术学习/agent/05-工程实现/03-Prompt与角色设计.md",
+    "技术学习/agent/05-工程实现/02-主流框架与平台对比.md",
+    "技术学习/agent/05-工程实现/01-从零搭建实施步骤.md",
+    "技术学习/agent/04-构建范式/05-多Agent编排范式.md",
+    "技术学习/agent/04-构建范式/03-Reflexion.md",
+    "技术学习/agent/04-构建范式/01-ReAct.md",
+    "技术学习/agent/03-核心能力/01-工具调用与FunctionCalling.md",
+    "技术学习/agent/02-核心架构/04-规划推理层.md",
     "技术学习/agent/00-Agent知识体系总览.md",
     "技术学习/从机器学习到大模型-技术演进关键节点.md",
     "技术学习/大模型与AI Agent 技术资源汇总.md",
     "技术学习/agent/agent实施步骤.md",
-    "技术学习/agent/04-构建范式/05-多Agent编排范式.md",
     "技术学习/agent/04-构建范式/04-Toolformer与工具学习.md",
-    "技术学习/agent/04-构建范式/03-Reflexion.md",
     "技术学习/agent/04-构建范式/02-Plan-and-Execute.md",
-    "技术学习/agent/04-构建范式/01-ReAct.md",
     "技术学习/agent/04-构建范式",
     "技术学习/agent/03-核心能力/06-多智能体协作.md",
     "技术学习/agent/03-核心能力/05-记忆机制.md",
     "技术学习/agent/03-核心能力/04-上下文与状态管理.md",
     "技术学习/agent/03-核心能力/03-反思与自我修正.md",
     "技术学习/agent/03-核心能力/02-规划与任务分解.md",
-    "技术学习/agent/03-核心能力/01-工具调用与FunctionCalling.md",
     "技术学习/agent/03-核心能力",
     "技术学习/数据库/数据库mysql/MySQL知识点.md",
     "技术学习/vue/Vue面试题.md",
@@ -181,12 +186,7 @@
     "技术学习/rag/05-GraphRAG图谱增强.md",
     "技术学习/rag/04-ModularRAG模块化RAG.md",
     "技术学习/rag/03-AdvancedRAG进阶RAG.md",
-    "技术学习/rag/02-NaiveRAG朴素RAG.md",
-    "技术学习/rag/01-RAG概念与演进.md",
-    "技术学习/agent/07-应用场景/01-典型应用场景.md",
     "技术学习/agent/07-应用场景",
-    "技术学习/agent/06-测评优化/02-基准与数据集.md",
-    "技术学习/agent/06-测评优化/01-测评体系.md",
     "技术学习/agent/06-测评优化",
     "技术学习/agent/05-工程实现",
     "技术学习/agent/02-核心架构",
