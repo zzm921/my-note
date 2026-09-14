@@ -158,8 +158,9 @@
   },
   "active": "9bee1c192bcc3b96",
   "lastOpenFiles": [
-    "技术学习/agent/01-基础概念/02-Agent与LLM、RAG的区别.md",
+    "技术学习/机器学习/线性回归模型.md",
     "技术学习/机器学习/监督学习.md",
+    "技术学习/agent/01-基础概念/02-Agent与LLM、RAG的区别.md",
     "技术学习/机器学习",
     "技术学习/agent/01-基础概念/01-Agent是什么.md",
     "技术学习/agent/05-工程实现/03-Prompt与角色设计.md",
@@ -186,7 +187,6 @@
     "技术学习/数据库/数据库mysql/MySQL知识点.md",
     "技术学习/vue/Vue面试题.md",
     "技术学习/rag/rag.md",
-    "技术学习/rag/05-GraphRAG图谱增强.md",
     "技术学习/agent/07-应用场景",
     "技术学习/agent/06-测评优化",
     "技术学习/agent/05-工程实现",
