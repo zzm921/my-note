@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "81a4bfbd07b51618",
+        "id": "4f167a7e5092fd5b",
         "type": "tabs",
         "children": [
           {
-            "id": "9bee1c192bcc3b96",
+            "id": "42953066312a4159",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术学习/机器学习/监督学习.md",
+                "file": "技术学习/机器学习/梯度下降.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "监督学习"
+              "title": "梯度下降"
             }
           }
         ],
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术学习/机器学习/监督学习.md",
+                "file": "技术学习/agent/agent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,44 +157,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bee1c192bcc3b96",
+  "active": "42953066312a4159",
   "lastOpenFiles": [
     "技术学习/机器学习/线性回归模型.md",
+    "技术学习/机器学习/梯度下降.md",
     "技术学习/机器学习/监督学习.md",
-    "技术学习/agent/01-基础概念/02-Agent与LLM、RAG的区别.md",
-    "技术学习/机器学习",
-    "技术学习/agent/01-基础概念/01-Agent是什么.md",
-    "技术学习/agent/05-工程实现/03-Prompt与角色设计.md",
-    "技术学习/agent/05-工程实现/02-主流框架与平台对比.md",
-    "技术学习/agent/05-工程实现/01-从零搭建实施步骤.md",
-    "技术学习/agent/04-构建范式/05-多Agent编排范式.md",
-    "技术学习/agent/04-构建范式/03-Reflexion.md",
-    "技术学习/agent/04-构建范式/01-ReAct.md",
-    "技术学习/agent/03-核心能力/01-工具调用与FunctionCalling.md",
-    "技术学习/agent/02-核心架构/04-规划推理层.md",
-    "技术学习/agent/00-Agent知识体系总览.md",
     "技术学习/从机器学习到大模型-技术演进关键节点.md",
+    "技术学习/机器学习",
     "技术学习/大模型与AI Agent 技术资源汇总.md",
-    "技术学习/agent/agent实施步骤.md",
-    "技术学习/agent/04-构建范式/04-Toolformer与工具学习.md",
-    "技术学习/agent/04-构建范式/02-Plan-and-Execute.md",
-    "技术学习/agent/04-构建范式",
-    "技术学习/agent/03-核心能力/06-多智能体协作.md",
-    "技术学习/agent/03-核心能力/05-记忆机制.md",
-    "技术学习/agent/03-核心能力/04-上下文与状态管理.md",
-    "技术学习/agent/03-核心能力/03-反思与自我修正.md",
-    "技术学习/agent/03-核心能力/02-规划与任务分解.md",
-    "技术学习/agent/03-核心能力",
-    "技术学习/数据库/数据库mysql/MySQL知识点.md",
-    "技术学习/vue/Vue面试题.md",
+    "技术学习/诗词AI Agent 技术设计方案.md",
     "技术学习/rag/rag.md",
-    "技术学习/agent/07-应用场景",
-    "技术学习/agent/06-测评优化",
-    "技术学习/agent/05-工程实现",
-    "技术学习/agent/02-核心架构",
-    "技术学习/agent/01-基础概念",
+    "技术学习/agent/agent测评.md",
+    "技术学习/agent/agent.md",
     "技术学习/rag",
-    "技术学习/agent",
+    "conflict-files-obsidian-git.md",
+    "技术学习/agent/agent记忆.md",
+    "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md",
+    "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
+    "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1",
+    "zi-yan-xiang-mu/README.md",
+    "zi-yan-xiang-mu",
+    "l-you-sheng-huo/sui-ji/README.md",
+    "l-you-sheng-huo/hun-li/README.md",
+    "l-you-sheng-huo/l-you/README.md",
+    "l-you-sheng-huo/huai-yun/README.md",
+    "l-you-sheng-huo/sui-ji",
+    "l-you-sheng-huo/README.md",
+    "l-you-sheng-huo/l-you",
+    "l-you-sheng-huo/hun-li",
+    "l-you-sheng-huo/huai-yun",
+    "l-you-sheng-huo",
+    "技术学习/agent/智能体构建范式.md",
+    "自研项目/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
+    "自研项目/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
+    "自研项目/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
+    "自研项目/诗词KG-RAG_Agent方案/搜韵API分析.md",
+    "自研项目/诗词KG-RAG_Agent方案",
+    "技术学习/未命名.md",
+    "ji-shu-xue-xi/shu-ju-ku/shu-ju-ku-redis/README.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "images/Pasted image 20240229212637.png",
