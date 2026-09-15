@@ -28,11 +28,26 @@
 - 正文硬性要求：第一行 H1（全文唯一）+ 紧跟 `> 摘要行`；分节只用 `##`/`###`；站外不渲染 `[[双链]]`。
 - 命名：文件名不含空格；序号只用 `NN-` 前缀；目录不用「学习」等冗余词。
 
+## 站点卡片认领与发布字段
+
+- **已认领**：`10-AI/agent-engineering/`(13) `10-AI/protocol/`(4) `10-AI/eval/`(4) 共 21 篇，
+  由 `my-agent-lab/backend/content/*.md` 反向生成，**笔记库现为写作源**。
+- `10-AI/ops/` **不持有实体笔记**：站点的 `ops` 分区与 `agent-engineering` Harness 层
+  是同一批 6 张卡（交叉视图），实体统一在 `agent-engineering/`。
+- **frontmatter 分层**：根级放笔记规范字段；站点渲染字段收进 `site_meta:` 嵌套块
+  （`id/name/icon/difficulty/accent/prompts/techFilters/…`）；另加
+  `publish: true` / `site: <分区>` / `cardId: <id>`。
+  ⚠️ 站点字段**不要平铺**，否则 `tags` 键重复、YAML 解析会丢字段。
+- 尚未认领：站点 `agent` 分区 8 张卡。
+
 ## 附件约定
 
 - **图片统一放 `99-Attachments/`**（Obsidian `attachmentFolderPath` 已设为该目录）。
 - 引用写法用 Obsidian wiki-embed **`![[文件名.png]]`** —— 按文件名解析、与目录无关，移动文件不断链。**优先用这种写法**。
 - 避免相对路径 `../` 引用（目前仅 1 处，已改）。
+- ⚠️ **判「孤儿附件」必须扫四种语法**：wiki-embed / Markdown 图片 / 裸路径(含 gitbook) /
+  **被转义的 wiki-embed**（`!\[\[`）。只扫一种会大量误判——曾把 23 张活图判成孤儿。
+  另外文件名**可能含空格**，正则别写 `[^>\s)]+`。
 
 ## 用户偏好
 
@@ -57,6 +72,9 @@
 ## 环境坑（Windows）
 
 - **`git mv` 在中文路径下会静默失败** → 批量移动文件一律用 Python `shutil.move`。
+- **`git rm -r "中文路径"` 会截断成上层目录** —— 曾误删整个 `99-Archive/`（65 文件）。
+  → **中文路径不要传给 `git rm` / `git mv`**；改用 Python `unlink`/`rmtree` + `git add -A`。
+- **`git reset --hard` 会清掉未提交内容**（含未跟踪新文件）→ **阶段性成果尽早 commit**。
 - 判断磁盘真实状态用 Python `rglob`，**不要用 Git Bash 的 `find`**（中文路径返回空）。
 - `git status`/`git ls-files` 显示的路径不代表磁盘有文件——索引可能领先于工作区。
 - 校验内容完整性时须把 `\r\n` 规范化为 `\n`，否则 git show 与工作区会全部误判为不同。
