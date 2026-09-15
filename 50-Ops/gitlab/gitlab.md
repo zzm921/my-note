@@ -66,7 +66,7 @@ sudo gitlab-runner restart
 
 #### gitlab
 
-**关联笔记：** [[gitlab-cicd]] | [[gitlab-runner]] | [[../docker/docker]] | [[../CICD/酷旗自动化构建及部署流程]]-ci/cd使用
+**关联笔记：** [[gitlab-cicd]] | [[gitlab-runner]] | [[../docker/docker]] | [[酷旗自动化构建及快速部署方案]]-ci/cd使用
 ##### `gitlab-ci.yml` 详解,如：
 ```
 # docker镜像

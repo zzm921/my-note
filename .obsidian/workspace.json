@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-AI/agent/Hermes-Agent配置指南.md",
+                "file": "10-AI/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hermes-Agent配置指南"
+              "title": "README"
             }
           }
         ],
@@ -159,6 +159,15 @@
   },
   "active": "42953066312a4159",
   "lastOpenFiles": [
+    "10-AI/rag/RAG评估.md",
+    "10-AI/rag/RAG总览.md",
+    "10-AI/rag/naive-rag-碎片.md",
+    "10-AI/rag/advanced-rag-碎片.md",
+    "10-AI/rag/05-GraphRAG图谱增强.md",
+    "10-AI/rag/04-ModularRAG模块化RAG.md",
+    "10-AI/rag/02-NaiveRAG朴素RAG.md",
+    "10-AI/rag/01-RAG概念与演进.md",
+    "10-AI/agent/Hermes-Agent配置指南.md",
     "99-Archive/孤儿图片清单.md",
     "99-Attachments/文件名.png,",
     "99-Attachments/Pasted image 20240116102852.png",
@@ -191,17 +200,8 @@
     "技术学习/agent/agent测评.md",
     "技术学习/agent/agent.md",
     "技术学习/rag",
-    "conflict-files-obsidian-git.md",
-    "技术学习/agent/agent记忆.md",
-    "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1/README.md",
-    "zi-yan-xiang-mu/shi-ci-kgrag-agent-fang-an-wen-dang.md",
     "zi-yan-xiang-mu/shi-ci-kgragagent-fang-an-1",
-    "zi-yan-xiang-mu/README.md",
     "zi-yan-xiang-mu",
-    "l-you-sheng-huo/sui-ji/README.md",
-    "l-you-sheng-huo/hun-li/README.md",
-    "l-you-sheng-huo/l-you/README.md",
-    "l-you-sheng-huo/huai-yun/README.md",
     "l-you-sheng-huo/sui-ji",
     "l-you-sheng-huo/l-you",
     "l-you-sheng-huo/hun-li",
