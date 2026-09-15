@@ -19,7 +19,7 @@ HTML = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']")    # <img src="x.png">
 
 def main() -> None:
     assets: dict[str, Path] = {}
-    for ad in ("images", ".gitbook/assets"):
+    for ad in ("99-Attachments", "99-Archive/孤儿图片", "images", ".gitbook/assets"):
         d = VAULT / ad
         if d.exists():
             for p in d.rglob("*"):

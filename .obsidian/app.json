@@ -10,7 +10,7 @@
     "downscalePercent": 80
   },
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "99-Attachments",
   "autoConvertHtml": false,
   "newLinkFormat": "relative"
 }
