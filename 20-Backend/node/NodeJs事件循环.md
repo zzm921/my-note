@@ -14,11 +14,11 @@ updated: 2026-09-16
 
 #### 事件循环图
 
-事件循环图： ![](<../../.gitbook/assets/Pasted image 20240119150817.png>) 事件循环结构图 ![](<../../.gitbook/assets/Pasted image 20240119150904.png>)
+事件循环图： ![[Pasted image 20240119150817.png]] 事件循环结构图 ![[Pasted image 20240119150904.png]]
 
 #### 主线程
 
-![](<../../.gitbook/assets/Pasted image 20240119151522.png>) 上图中，几个色块的含义
+![[Pasted image 20240119151522.png]] 上图中，几个色块的含义
 
 * main ：启动入口文件，运行主函数
 * event loop：检查是否进入事件循环
@@ -30,7 +30,7 @@ updated: 2026-09-16
 
 #### 事件循环圈
 
-![](<../../.gitbook/assets/Pasted image 20240119152015.png>) 图中灰色的圈跟操作系统有关系，，不是本章解析重点。重点关注黄色、橙色的圈还有中间橘黄的方框。 我们把每一圈的事件循环叫做【一次循环】、【一次轮询】、【一次Tick】
+![[Pasted image 20240119152015.png]] 图中灰色的圈跟操作系统有关系，，不是本章解析重点。重点关注黄色、橙色的圈还有中间橘黄的方框。 我们把每一圈的事件循环叫做【一次循环】、【一次轮询】、【一次Tick】
 
 一次循环要经过六个阶段：
 
@@ -120,7 +120,7 @@ server.listen(8080)
 * 到达poll队列，再次holding……
 * 再等很长时间没有任务来临，自动断开到even loop（再补充一点无任务的循环情况）
 * 再次回到poll队列挂起
-* 无限循环…… ![](<../../.gitbook/assets/Pasted image 20240119165106.png>)
+* 无限循环…… ![[Pasted image 20240119165106.png]]
 
 ```
 const startTime = new Date();
@@ -180,7 +180,7 @@ setImmediate(() => {
 
 ```
 
-多次反复运行，执行效果如下： ![](<../../.gitbook/assets/Pasted image 20240119171146.png>) 可以看到多次运行，两句console.log打印的顺序不定。
+多次反复运行，执行效果如下： ![[Pasted image 20240119171146.png]] 可以看到多次运行，两句console.log打印的顺序不定。
 
 这是因为settimeout的间隔数最小填1，虽然下边代码填了0,。但实际计算机执行当1ms算。
 

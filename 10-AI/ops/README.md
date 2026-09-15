@@ -1,0 +1,46 @@
+---
+type: moc
+domain: ai/ops
+tags: [生产治理, 成本治理, 沙箱, 安全, AI-Agent]
+status: living
+created: 2026-09-16
+updated: 2026-09-16
+---
+
+# 生产与治理 · Ops
+
+> 让 Agent 在真实环境里跑得住——成本、网关、沙箱、容错、审批、安全。
+> 本域**不持有独立笔记**：站点 `ops` 分区的 6 张卡与 `agent-engineering` 的 Harness 层是**同一批卡片**（交叉视图），实体统一放在 [[10-AI/agent-engineering/README\|Agent 工程演进]]。
+
+## 为什么这里没有独立文件
+
+站点 `tags.md` 中，`ops` 分区复用了 `agent-engineering` Harness 层的 6 张卡：
+
+| 卡片 | 实体位置 |
+|---|---|
+| [[cost-governance]] | `10-AI/agent-engineering/` |
+| [[llm-gateway]] | `10-AI/agent-engineering/` |
+| [[sandbox]] | `10-AI/agent-engineering/` |
+| [[fault-injection]] | `10-AI/agent-engineering/` |
+| [[hitl]] | `10-AI/agent-engineering/` |
+| [[security]] | `10-AI/agent-engineering/` |
+
+**一卡两视图**：站点侧把它们同时挂到两个分区（`agent-engineering` 的 Harness 层 = 工程演进视角；`ops` = 生产治理视角）。笔记库**只存一份实体**，靠本 README 提供第二个入口。
+
+> 这是刻意设计，不是遗漏——避免同一内容双写后不同步。
+
+## 治理六件事
+
+| 维度 | 问题 | 手段 |
+|---|---|---|
+| **成本** | 每轮调用都烧钱 | token 预算、Prompt Cache、模型分级 |
+| **延迟** | 多步循环越等越久 | 并发化、小模型分流 |
+| **网关** | 多供应商接入碎 | 统一接入 + 自动路由 |
+| **隔离** | 命令执行有风险 | 沙箱执行 |
+| **容错** | 错误是常态 | 重试 + 熔断 + 优雅降级 |
+| **合规** | 关键决策不能自动 | 审批门、Guardrails、脱敏 |
+
+## 与站点的关系
+
+- 本目录**不发布**（无 `publish` 文件），站点 `ops` 分区的内容由 `agent-engineering` 那 6 篇提供
+- 站点分区顺序在 `tags.md` 里控制，笔记库不干预

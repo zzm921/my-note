@@ -27,7 +27,7 @@ updated: 2026-09-16
 
 #### puppeteer分层
 
-![](<../../../.gitbook/assets/Pasted image 20240229212637.png>)
+![[Pasted image 20240229212637.png]]
 
 * browser: 对应一个浏览器实例，一个Browser可以包含多个BrowserContext
 * BrowserContext：对应浏览器一个上下文回话，就像我们打开一个普通的chrome之后又打开一个隐身模式的浏览器一样，BrowserContext 具有独立的 Session(cookie 和 cache 独立不共享)，一个 BrowserContext 可以包含多个 Page。

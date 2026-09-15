@@ -199,7 +199,7 @@ module.exports = function () { return 'foo'; };
 
 **请描述一下整个异步I/O的流程**
 
-![](<../../.gitbook/assets/Pasted image 20240226213326.png>)
+![[Pasted image 20240226213326.png]]
 
 #### V8的垃圾回收机制
 
@@ -249,7 +249,7 @@ Buffer.allocUnsafe创建的 Buffer 实例的底层内存是未初始化的。 �
 
 **请简述一下node的多进程架构**
 
-面对node单线程对多核cpu使用不足的情况，Node提供了child\_process模块，来实现进程的复制，node的多进程架构是主从模式。 ![](<../../.gitbook/assets/Pasted image 20240226214925.png>)
+面对node单线程对多核cpu使用不足的情况，Node提供了child\_process模块，来实现进程的复制，node的多进程架构是主从模式。 ![[Pasted image 20240226214925.png]]
 
 ```
 var fork = require('child_process').fork;

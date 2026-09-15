@@ -1,0 +1,145 @@
+---
+type: concept
+domain: ai/agent-engineering
+tags: [Resilience, Testing, Chaos-Engineering, Circuit-Breaker, agent-engineering, AI-Agent]
+status: done
+created: 2026-09-16
+updated: 2026-09-16
+
+site_meta:
+  id: fault-injection
+  name: 容错·重试·熔断
+  shortDesc: 错误不是意外，是常态——两层重试 + 熔断短路，让 Agent 优雅降级而非崩溃。
+  icon: shield
+  difficulty: adv
+  completeLevel: 80
+  tags: [Resilience, Testing, Chaos-Engineering, Circuit-Breaker]
+  techFilters: [LangGraph, MCP]
+  accent: '#ef4444'
+  enabledTools: [calculator]
+  faults:
+    calculator: timeout
+  prompts:
+    - 帮我计算 128 × 37，并验证结果的正确性。
+    - 连续计算 99 × 99、123 × 456、7 × 8，观察容错重试与熔断如何工作。
+
+publish: true
+site: agent-engineering
+cardId: fault-injection
+---
+
+# 容错·重试·熔断
+
+> 错误不是意外，是常态——两层重试 + 熔断短路，让 Agent 优雅降级而非崩溃。
+
+## 概述
+
+容错（Resilience）解决一个问题：**错误发生了，Agent 该怎么办**。Agent 的本质是「自主执行」——模型在循环里不断调用外部工具，而工具失败（超时、限流、5xx、参数写错）在真实世界里每天都在发生。容错设计决定 Agent 在异常情况下是崩溃、无限重试，还是优雅降级。
+
+核心原则：**错误不是意外，而是常态**。不能等上线后由真实事故来暴露问题，容错能力应主动设计、可度量、可回归。
+
+## 为什么需要
+
+一旦某个工具失败，没有容错的自主循环会陷入三种糟糕局面：
+
+- **崩溃传播**：一次工具报错让整个任务链断裂，前面的工作全部白费；
+- **无限重试**：模型对瞬时错误盲目重试，白白烧掉 token 还放大下游压力；
+- **静默失败**：Agent 假装成功继续推进，把错误结果带进最终答案（最危险）。
+
+这些问题在「一切正常」时不会暴露，只有故障时刻才显现——而故障必然发生。
+
+## 通用设计思路
+
+### 第一步：给失败分门别类
+
+不是所有失败都该用同一种方式处理。先把错误分成两类：
+
+| 分类 | 典型错误 | 处理方向 | 理由 |
+|------|---------|---------|------|
+| 瞬时（transient） | timeout / conn_reset / dns / 429 / 5xx | 自动重试 | 与参数无关，换个时间点大概率成功 |
+| 永久（permanent） | 4xx / 余额不足 / 业务报错 | 交给模型思考后重试 | 同参数重试必败，盲试是浪费 |
+
+### 第二步：按类别选择策略
+
+- **自动重试（指数退避）**：瞬时错误透明重试，把偶发抖动消化在内部；加上重试上限，避免无限烧 token；
+- **反馈给模型**：永久错误不重试，把错误信息返回给模型，让它换参数或换工具；
+- **熔断短路**：同一工具「同参数」连续失败达阈值后短路，冷却后 half-open 放行一次探测，防止雪崩；
+- **优雅降级**：某一步彻底失败时，明确提示模型「换一个工具」，而不是假装成功或崩溃。
+
+### 关键机制：熔断（Circuit Breaker）
+
+```
+CLOSED（正常）─ 连续失败达阈值 ─→ OPEN（短路，直接拒绝）
+   │                                      │ 冷却期后
+   └──────── 成功，计数归零 ◄──────── HALF-OPEN（放行一次探测）
+```
+
+- 短路只针对**同一参数**的重复失败；模型换参数重试视为新调用始终放行——既保护下游，又不堵死修正参数的出路；
+- 每次失败计入失败率统计，供可观测层告警。
+
+## 本项目的做法
+
+本项目在 Harness 层实现了「**两层重试 + 熔断短路**」：
+
+- **工具层**：瞬时错误自动重试（指数退避），把偶发抖动消化在内部；
+- **Agent 层**：同一工具连续失败达上限后，明确提示模型「换一个工具」；
+- **熔断**：同一会话内「同一工具 + 同一参数」连续失败达阈值即短路，half-open 冷却后放行一次探测。
+
+伪代码：
+
+```python
+# 工具执行前的容错判定
+async def invoke_with_resilience(session_id, tool_name, args, settings):
+    # 1) 熔断判定：同参数重复失败达阈值 → 直接短路
+    if not circuit_allows(session_id, tool_name, args):
+        return error_event("circuit_open, cooling down")
+
+    try:
+        return await execute(tool_name, args)
+    except RetryableToolError as e:              # 瞬时错误（timeout / 429 / 5xx / dns …）
+        # 2) 工具层自动重试：指数退避，达到 retry_max 后放弃并报给模型
+        return await retry_with_backoff(e)
+    except PermanentToolError as e:              # 永久错误（4xx / 余额不足 / 业务报错）
+        # 3) 不重试：错误信息返回给模型，让它换参数 / 换工具
+        return e.to_message()
+
+    # 4) Agent 层兜底：同一工具连续失败达到 agent_retry_max，
+    #    明确提示模型「该工具不可用，请换一个工具」
+```
+
+### 与通用设计的对应关系
+
+| 通用设计 | 本项目做法 |
+|---------|-----------|
+| 失败分类 | `RetryableToolError`（瞬时）vs `PermanentToolError`（永久） |
+| 自动重试 | 工具层指数退避重试，`retry_max` 上限 |
+| 反馈给模型 | 永久错误信息返回给模型，自行换参数 / 换工具 |
+| 熔断短路 | `circuit_allows` 同参数失败达阈值短路 + half-open 探测 |
+| 优雅降级 | Agent 层连续失败达上限，明确提示模型换工具 |
+
+## 收益与边界
+
+**收益**
+
+- 两层重试各取所长：瞬时错误透明消化、参数错误交给模型思考，避免盲试；
+- 熔断 + half-open 探测，防止工具雪崩式失败拖垮会话；
+- 容错能力可验证、可演示、可回归。
+
+**边界 / 局限**
+
+- 容错只解决「报错」的失败，覆盖不了模型幻觉、检索质量差等「不报错但答错」的情况；
+- 熔断只针对同参数重复失败，模型若持续换着花样失败，仍需要 Agent 层上限兜底。
+
+## 演进与关联
+
+容错设计是 Harness（Agent = Model + Harness）六大组件之一，与其它护栏协同：
+
+```
+审批门（先拦高风险）→ 沙箱（隔离执行）→ 工具调用 → 两层重试 / 熔断
+                                                       ↘ 失败太多 → 可观测告警 / 审计
+```
+
+- **与 HITL 协作**：高危工具强制审批，把「失败面」挡在进入之前；
+- **与可观测协作**：每次失败都计入工具失败率统计，可观测层据此告警；
+- **理念来源**：Chaos Engineering（Netflix 混沌工程）——「故障不是意外，是常态，要主动演练」。
+

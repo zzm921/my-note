@@ -45,7 +45,7 @@ string是redis中最简单同事也是最常用的一个数据类型。 string�
 
 #### List（列表）
 
-redis中的list其实就是链表数据结构的实现。redis的list的实现为一个双向链表，既可以支持反向查找和表里，更方便操作，不过带来了部分额外的内存开销。 !\[\[Pasted image 20231205170612.png]]
+redis中的list其实就是链表数据结构的实现。redis的list的实现为一个双向链表，既可以支持反向查找和表里，更方便操作，不过带来了部分额外的内存开销。 ![[Pasted image 20231205170612.png]]
 
 **常用命令**
 
@@ -101,7 +101,7 @@ redis中的Set类型是一种无须集合，集合中的元素没有先后循序
 
 #### sorted Set（有序集合）
 
-sorted Set类似于set，但和set相比，sorted set增加了一个权重参数score，使得集合中的元素能够按score进行有序的排列，还可以通过score的范围来获取元素列表。有点像java中的hashmap和treeset的结合体。 !\[\[Pasted image 20231206112913.png]]
+sorted Set类似于set，但和set相比，sorted set增加了一个权重参数score，使得集合中的元素能够按score进行有序的排列，还可以通过score的范围来获取元素列表。有点像java中的hashmap和treeset的结合体。 ![[Pasted image 20231206112913.png]]
 
 **常用命令**
 
