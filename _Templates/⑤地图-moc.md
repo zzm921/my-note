@@ -1,10 +1,10 @@
 ---
 type: moc
-domain: 
+domain:
 tags: []
 status: living
-created: 
-updated: 
+created:
+updated:
 ---
 
 # 域名称 · 地图

@@ -1,9 +1,7 @@
-"""扫描图片引用：找出库里所有对 images/ 与 .gitbook/assets/ 的引用。
+"""扫描图片引用（正确的 Obsidian wiki-embed 语法）。
 
-只读，不改任何文件。输出：
-1. 每个图片被哪些笔记引用（相对路径写法）
-2. 未被任何笔记引用的孤儿图片
-3. 引用写法分类（markdown / obsidian / html）
+Obsidian 的 ![[x.png]] 按**文件名**解析，与所在目录无关 —— 所以把图片
+从 images/ 移到 99-Attachments/ 不会断链。本脚本确认这一结论并找出例外。
 """
 from __future__ import annotations
 
@@ -12,89 +10,94 @@ from pathlib import Path
 
 VAULT = Path(r"D:\workspace\my-note")
 SKIP_DIRS = {".git", ".obsidian", ".idea", ".workbuddy-ai", ".gitbook"}
-ASSET_DIRS = ["images", ".gitbook/assets"]
 IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".bmp"}
+
+WIKI = re.compile(r"!\[\[([^\]|]+?)(?:\|[^\]]*)?\]\]")   # ![[x.png]] 或 ![[x.png|alt]]
+MD = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")                # ![](x.png)
+HTML = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']")    # <img src="x.png">
 
 
 def main() -> None:
-    # 收集所有图片
     assets: dict[str, Path] = {}
-    for ad in ASSET_DIRS:
+    for ad in ("images", ".gitbook/assets"):
         d = VAULT / ad
         if d.exists():
             for p in d.rglob("*"):
                 if p.is_file() and p.suffix.lower() in IMG_EXT:
                     assets[p.relative_to(VAULT).as_posix()] = p
-    print(f"图片总数：{len(assets)}")
-    for ad in ASSET_DIRS:
-        d = VAULT / ad
-        n = len([p for p in d.rglob('*') if p.is_file()]) if d.exists() else 0
-        print(f"  {ad}/  {n}")
+    by_name: dict[str, list[str]] = {}
+    for k in assets:
+        by_name.setdefault(Path(k).name, []).append(k)
 
-    # 收集所有笔记
     notes = [p for p in VAULT.rglob("*.md")
              if not any(s in p.parts for s in SKIP_DIRS)]
-    print(f"\n笔记总数：{len(notes)}")
 
-    # 找引用
-    # markdown: ![](path)  ![alt](path)
-    md_re = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
-    # html: <img src="path">
-    html_re = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']")
-    # obsidian: ![[path]]
-    obs_re = re.compile(r"!\[\[([^\]]+)\]\]")
-
-    refs: dict[str, list[tuple[str, str]]] = {}  # asset_key -> [(note, style)]
-    by_name: dict[str, str] = {}                 # 文件名 -> asset_key
-
-    for k in assets:
-        by_name.setdefault(Path(k).name, k)
+    wiki_refs: dict[str, list[str]] = {}
+    path_refs: list[tuple[str, str, str]] = []   # (note, raw, style)
+    unresolved: list[tuple[str, str]] = []
+    http_count = 0
 
     for note in notes:
         rel = note.relative_to(VAULT).as_posix()
         text = note.read_text(encoding="utf-8", errors="ignore")
-        for style, rgx in (("md", md_re), ("html", html_re), ("obs", obs_re)):
+        for m in WIKI.finditer(text):
+            name = m.group(1).strip()
+            if Path(name).suffix.lower() not in IMG_EXT:
+                continue
+            key = Path(name).name
+            if key in by_name:
+                wiki_refs.setdefault(key, []).append(rel)
+            else:
+                unresolved.append((rel, name))
+        for style, rgx in (("md", MD), ("html", HTML)):
             for m in rgx.finditer(text):
                 raw = m.group(1).strip()
-                # 归一化：去掉 ./ 前缀
-                cand = raw.lstrip("./")
-                key = None
-                if cand in assets:
-                    key = cand
-                else:
-                    # 用文件名兜底匹配（处理相对路径 ../images/x.png）
-                    base = Path(cand).name
-                    if base in by_name:
-                        key = by_name[base]
-                if key:
-                    refs.setdefault(key, []).append((rel, raw))
+                if raw.startswith("http"):
+                    http_count += 1
+                    continue
+                key = Path(raw).name
+                if Path(raw).suffix.lower() not in IMG_EXT:
+                    continue
+                path_refs.append((rel, raw, style))
+                if key not in by_name:
+                    unresolved.append((rel, raw))
 
-    print(f"\n被引用的图片：{len(refs)}")
-    print(f"孤儿图片（无引用）：{len(assets) - len(refs)}")
+    print("=" * 60)
+    print(f"图片总数        {len(assets)}")
+    print(f"  其中 images/          {len([k for k in assets if k.startswith('images/')])}")
+    print(f"  其中 .gitbook/assets/ {len([k for k in assets if k.startswith('.gitbook')])}")
+    print()
+    print(f"wiki 引用 ![[x.png]]    {sum(len(v) for v in wiki_refs.values())} 处，涉及 {len(wiki_refs)} 张图")
+    print(f"路径引用 (md/html)      {len(path_refs)} 处")
+    print(f"http 外链               {http_count} 处（不动）")
+    print()
+    print(f"孤儿图片（零引用）      {len(assets) - len(wiki_refs)}")
+    print(f"引用不到的图片名        {len(unresolved)}")
 
-    print("\n=== 引用明细（前 40）===")
-    for k in sorted(refs)[:40]:
-        print(f"\n{k}")
-        for note, raw in refs[k]:
-            print(f"    <- {note}   [原写法: {raw}]")
+    print("\n" + "=" * 60)
+    print("路径引用明细（迁移后需改写这些）")
+    if path_refs:
+        for note, raw, style in path_refs:
+            print(f"  [{style}] {note}\n        -> {raw}")
+    else:
+        print("  （无）")
 
-    print("\n=== 孤儿图片（未被引用，可考虑清理）===")
-    orphans = [k for k in sorted(assets) if k not in refs]
-    for k in orphans:
-        print(f"  {assets[k].stat().st_size:>8}B  {k}")
+    print("\n" + "=" * 60)
+    print("引用不到的图片名（可能已丢失）")
+    if unresolved:
+        for note, name in unresolved[:30]:
+            print(f"  {note}  ->  {name}")
+    else:
+        print("  （无，全部可解析）")
 
-    # 引用写法分类：指向 assets 的引用里，有多少是相对路径
-    print("\n=== 风险提示：相对路径引用 ===")
-    risky = [(k, n, r) for k, v in refs.items() for n, r in v
-             if r.startswith("../") or r.startswith("./")]
-    print(f"使用 ./ 或 ../ 相对路径的引用：{len(risky)} 处")
-    # ../ 的等级
-    lvl = {}
-    for k, n, r in risky:
-        d = r.count("../")
-        lvl[d] = lvl.get(d, 0) + 1
-    for d in sorted(lvl):
-        print(f"  深度 {d} 层 ../ ：{lvl[d]} 处")
+    print("\n" + "=" * 60)
+    print("重名图片（同一文件名存在于两个附件目录）")
+    dup = {n: v for n, v in by_name.items() if len(v) > 1}
+    for n, v in sorted(dup.items()):
+        print(f"  {n}")
+        for k in v:
+            print(f"      {assets[k].stat().st_size:>9}B  {k}")
+    print(f"  共 {len(dup)} 个重名")
 
 
 if __name__ == "__main__":
