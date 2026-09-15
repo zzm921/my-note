@@ -40,6 +40,20 @@
 - 重视「现状诊断要有证据」（数量、路径、实测结论），不接受空泛建议。
 - 说「执行」即表示已确认，可以动手；但**破坏性操作前须自行打还原点**。
 
+## 笔记 frontmatter 规范（已全库落地）
+
+- 字段：`type` / `domain` / `tags` / `status` / `created` / `updated`（可选 `source`）。
+- `type`：`concept` / `tutorial` / `howto` / `issue` / `moc` / `daily`。
+- `status`：`draft`（草稿，正文<300字或含 todo）/ `done` / `living`（地图类）。
+- `domain`：**语义化路径**，如 `ai/ml`、`backend/node/db`、`ops/gitlab`、`frontend/typescript`；元文件用 `元`。**不要用目录名**（如 `10-AI`）。
+- **`90-Daily` 日报是例外**：不套用完整规范，只按 `YYYY-MM-DD.md` 命名，靠文件名做时序检索。
+- 维护脚本：`.workbuddy-ai/scripts/add_frontmatter.py`（dry-run 默认，带 `OVERRIDE` 人工覆写表）。
+
+## 归档约定
+
+- `99-Archive/` 只进不出，**归档 ≠ 删除**，且必登记（写入 `99-Archive/README.md` 或专项清单）。
+- 合并/重命名后原文归档，不在主区留同名副本，引用改指向新合并稿。
+
 ## 环境坑（Windows）
 
 - **`git mv` 在中文路径下会静默失败** → 批量移动文件一律用 Python `shutil.move`。
