@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node/tools
+tags: [puppeteer]
+status: done
+updated: 2026-09-16
+---
+
 # puppeteer
 
 #### puppeteer是什么

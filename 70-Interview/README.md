@@ -1,6 +1,6 @@
 ---
 type: moc
-domain: 70-Interview
+domain: interview
 status: living
 created: 2026-09-16
 updated: 2026-09-16

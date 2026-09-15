@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data
+tags: [NoSQL, SQL]
+status: done
+updated: 2026-09-16
+---
+
 ### NoSQL是什么
 
 **关联笔记：** [[数据库基础]] | [[数据库redis/redis]] | [[30-Data/README]] | [[数据库mysql/mysql常见面试题]]

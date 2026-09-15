@@ -1,7 +1,10 @@
 ---
-created: 2026-06-29
+type: tutorial
+domain: projects
 tags: [诗词AI-Agent, 产品设计, 知识图谱, RAG]
-status: 设计稿
+status: done
+created: 2026-06-29
+updated: 2026-09-16
 ---
 
 # 诗词 AI Agent 技术设计方案 v1.0

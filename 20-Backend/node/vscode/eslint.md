@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node/vscode
+tags: [eslint]
+status: done
+updated: 2026-09-16
+---
+
 vscode +eslint
 https://www.zhihu.com/question/52777843
 作者：纵横

@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: backend/node
+tags: [Promise]
+status: done
+updated: 2026-09-16
+---
+
 #### 手写Promise
 
 **关联笔记：** [[NodeJs事件循环]] | [[node学习node基础/ECMAScript]] | [[前端/js]]

@@ -1,3 +1,11 @@
+---
+type: moc
+domain: ai/ml
+tags: [机器学习]
+status: done
+updated: 2026-09-16
+---
+
 # 机器学习笔记（吴恩达课程）
 
 > 本笔记整理自吴恩达（Andrew Ng）《机器学习》2022 新版课程（Machine Learning Specialization）。

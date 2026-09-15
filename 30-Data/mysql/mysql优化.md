@@ -1,3 +1,11 @@
+---
+type: howto
+domain: data/mysql
+tags: [mysql, 索引]
+status: done
+updated: 2026-09-16
+---
+
 ## 一、避免不走索引的场景
 **1. 尽量避免在字段开头模糊查询，会导致数据库引擎放弃索引进行全表扫描。**如下：
 

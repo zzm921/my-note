@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node
+tags: [ECMAScript]
+status: draft
+updated: 2026-09-16
+---
+
 1、let , const ,var
     const 常量
 

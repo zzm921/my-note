@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ops/docker
+tags: [Docker]
+status: done
+updated: 2026-09-16
+---
+
 #### 什么是Docker
 **Docker 属于 Linux 容器的一种封装，提供简单易用的容器使用接口.它是目前流行的容器解决方案。
 

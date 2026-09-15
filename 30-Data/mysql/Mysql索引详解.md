@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/mysql
+tags: [Mysql, 索引]
+status: done
+updated: 2026-09-16
+---
+
 ### 索引介绍
 
 **关联笔记：** [[mysql三大日志(binlog、redo log和undo log)详解]] | [[数据库mysql/mysql事务隔离级别]] | [[数据库mysql/mysql常见面试题]] | [[数据库基础]]

@@ -1,6 +1,6 @@
 ---
 type: moc
-domain: 50-Ops
+domain: ops
 status: living
 created: 2026-09-16
 updated: 2026-09-16

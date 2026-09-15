@@ -1,3 +1,11 @@
+---
+type: howto
+domain: ops/gitlab
+tags: [gitlab, git, 安装包]
+status: done
+updated: 2026-09-16
+---
+
 # gitlab升级指南--安装包
 
 升级须知 升级须知 gitlab跨大版本容易出错，需按照官方版本一步一步进行升级，升级前做好数据备份

@@ -1,3 +1,11 @@
+---
+type: concept
+domain: frontend/vue
+tags: [Vue, 面试题]
+status: done
+updated: 2026-09-16
+---
+
 # 未命名
 
 SPA（ single-page application ）仅在 Web 页面初始化时加载相应的 HTML、JavaScript 和 CSS。一旦页面加载完成，SPA 不会因为用户的操作而进行页面的重新加载或跳转；取而代之的是利用路由机制实现 HTML 内容的变换，UI 与用户的交互，避免页面的重新加载。

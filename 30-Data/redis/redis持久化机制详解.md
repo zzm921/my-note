@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/redis
+tags: [redis, 持久化]
+status: done
+updated: 2026-09-16
+---
+
 使用缓存的时候，我们经常需要对内存中的数据进行持久化也就是将内存中的数据写到硬盘中。大部分原因是为了重用数据，或者是为了做数据同步。
 redis不同于memcached的很重要一定就是，redis支持持久化，而且支持3中持久化方式：
 - 快照（snapshotting RDB）

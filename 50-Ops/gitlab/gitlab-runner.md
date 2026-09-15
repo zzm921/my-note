@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ops/gitlab
+tags: [GitLab, Git, runner]
+status: done
+updated: 2026-09-16
+---
+
 ### 一、GitLab Runner 介绍
 
 GitLab Runner是一个开源项目，用于运行您的作业并将结果发送回GitLab。它与GitLab CI一起使用，GitLab CI是GitLab随附的开源持续集成服务，用于协调作业。

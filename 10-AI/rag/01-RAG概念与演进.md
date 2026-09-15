@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: ai/rag
+tags: [RAG]
+status: done
+updated: 2026-09-16
+---
+
 # RAG 概念与演进
 
 ## 什么是 RAG

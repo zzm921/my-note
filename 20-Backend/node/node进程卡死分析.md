@@ -1,3 +1,11 @@
+---
+type: issue
+domain: backend/node
+tags: [node]
+status: done
+updated: 2026-09-16
+---
+
 ### 现象
 进程卡死，cpu占满。怀疑某个操作执行时间太长导致进程堵塞。cpu占满。后续请求无响应
 ### 分析 

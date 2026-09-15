@@ -1,3 +1,11 @@
+---
+type: concept
+domain: network
+tags: [TCP, 传输层]
+status: done
+updated: 2026-09-16
+---
+
 为了准确无误的把数据送达目的地，TCP协议采用了三次握手策略
 
 **关联笔记：** [[传输层-TCP传输可靠性保障]] | [[OSI和TCPIP网络分层模型详解]] | [[应用层-HTTP常见状态码总结]]。

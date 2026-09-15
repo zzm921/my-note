@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node/db
+tags: [sequelize]
+status: done
+updated: 2026-09-16
+---
+
 Sequelize 和 MySQL 对照
 
 如果你觉得 Sequelize 的文档有点多、杂，不方便看，可以看看这篇。

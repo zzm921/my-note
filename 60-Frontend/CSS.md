@@ -1,3 +1,11 @@
+---
+type: concept
+domain: frontend
+tags: [CSS, 前端基础, 布局]
+status: done
+updated: 2026-09-16
+---
+
 ## css的单位
 html中的单位只有一种，那就是像素px，所以单位是可以省略的。但是在css中不一样。css中的单位是必须要写的，因为他没有默认单位。
 - 绝对单位：

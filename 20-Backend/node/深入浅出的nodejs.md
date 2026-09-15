@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: backend/node
+tags: [nodejs]
+status: done
+updated: 2026-09-16
+---
+
 ### nodejs简介
 #### node的特点
 - 异步io

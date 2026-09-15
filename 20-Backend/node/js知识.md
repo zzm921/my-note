@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: backend/node
+tags: [数据类型, js]
+status: done
+updated: 2026-09-16
+---
+
 #### js的数据类型
 Undefined、Null、Boolean、Number、String、Object、Symbol、BigInt。
 -   Symbol 代表创建后独一无二且不可变的数据类型，它主要是为了解决可能出现的全局变量冲突的问题。

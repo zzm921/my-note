@@ -1,6 +1,10 @@
 ---
-created: 2026-07-01
+type: tutorial
+domain: projects
 tags: [搜韵, API实测, 诗词知识图谱]
+status: done
+created: 2026-07-01
+updated: 2026-09-16
 ---
 
 # 搜韵 API 实测分析

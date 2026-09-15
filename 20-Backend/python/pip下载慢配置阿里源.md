@@ -1,3 +1,11 @@
+---
+type: howto
+domain: backend/python
+tags: [pip]
+status: draft
+updated: 2026-09-16
+---
+
 
 
 pip数据源配置方法：

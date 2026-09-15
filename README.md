@@ -1,3 +1,11 @@
+---
+type: moc
+domain: 元
+tags: [导航, README]
+status: done
+updated: 2026-09-16
+---
+
 ### 配置方案
 电脑：obsidian+github+bosidian内obsidian git插件
 手机：obsidian+mgit

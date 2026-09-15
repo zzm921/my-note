@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/mysql
+tags: [MySQL, SQL]
+status: done
+updated: 2026-09-16
+---
+
 
 #### 数据库三大范式
 第一范式：每个列都不可拆分

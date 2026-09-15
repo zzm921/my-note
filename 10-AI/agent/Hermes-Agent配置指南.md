@@ -1,6 +1,10 @@
 ---
-created: 2026-06-27
+type: howto
+domain: ai/agent
 tags: [hermes, ai-agent, configuration]
+status: done
+created: 2026-06-27
+updated: 2026-09-16
 ---
 
 # Hermes Agent 配置指南

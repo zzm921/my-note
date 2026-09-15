@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: backend/node
+tags: [Node, 狼叔, Node.js]
+status: done
+updated: 2026-09-16
+---
+
 
 
 精华   【全文】狼叔：如何正确的学习Node.js

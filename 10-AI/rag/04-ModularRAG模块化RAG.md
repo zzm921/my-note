@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [ModularRAG, RAG]
+status: done
+updated: 2026-09-16
+---
+
 # Modular RAG 模块化 RAG
 
 ## 定义

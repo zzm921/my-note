@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: network
+tags: [TCPIP, TCP, OSI]
+status: done
+updated: 2026-09-16
+---
+
 ### OSI七层模型
 
 **关联笔记：** [[传输层-TCP三次握手和四次挥手]] | [[应用层-HTTP常见状态码总结]] | [[应用层-HTTP常见状态码总结]] | [[应用层-DNS域名系统详解]] | [[网络层-ARP协议详解]] | [[网络层-NAT协议详解]]

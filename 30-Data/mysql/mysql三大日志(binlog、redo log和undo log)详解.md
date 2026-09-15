@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/mysql
+tags: [redo log, undo log, binlog, mysql]
+status: done
+updated: 2026-09-16
+---
+
 mysql日志主要包括
 
 **关联笔记：** [[Mysql索引详解]] | [[mysql事务隔离级别]] | [[mysql常见面试题]]错误日志，查询日志，慢查询日志，事务日志，二进制日志几大类。其中，比较重要的还要数二进制日志binlog（归档日志）和事务日志redo log（重做日志）和undo log（回滚日志）。

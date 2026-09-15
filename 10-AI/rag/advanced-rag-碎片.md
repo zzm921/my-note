@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [advanced, rag, 碎片]
+status: draft
+updated: 2026-09-16
+---
+
 从离线部分开始
 1、文档读取转换成统一格式，复杂文档单独处理
 2、切块策略，使用markdown感知切分，然后使用语义切分。

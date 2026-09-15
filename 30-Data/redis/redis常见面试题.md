@@ -1,3 +1,11 @@
+---
+type: concept
+domain: data/redis
+tags: [redis, 面试题]
+status: done
+updated: 2026-09-16
+---
+
 ### redis基础
 #### 什么是redis
 redis是一个基于c语言开发的开源nosql数据库。与传统数据库不同的是，redis的数据保存在内存中，因此读写速度非常快，被广泛应用于分布式缓存方向。并且，redis存储的是kv键值对数据。

@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: network
+tags: [NAT, 网络层]
+status: done
+updated: 2026-09-16
+---
+
 # （网络层）NAT协议详解
 
 参考 ：https://javaguide.cn/cs-basics/network/nat.html

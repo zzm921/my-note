@@ -1,3 +1,11 @@
+---
+type: howto
+domain: data/mysql
+tags: [MySQL, SQL]
+status: done
+updated: 2026-09-16
+---
+
 ### 数据库命名规范
 - 所有数据库对象名称必须使用小写字母，并用下划线分割。
 - 所有的数据库对象名称禁止使用mysql保留关键字。

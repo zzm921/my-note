@@ -1,3 +1,11 @@
+---
+type: issue
+domain: backend/node/pitfall
+tags: [解决类似, usr, lib64, libstdc]
+status: done
+updated: 2026-09-16
+---
+
 解决类似 /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found 的问题
 
 

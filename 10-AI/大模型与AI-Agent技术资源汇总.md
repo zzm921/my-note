@@ -1,6 +1,10 @@
 ---
-created: 2026-06-27
+type: concept
+domain: ai
 tags: [大模型, AI-Agent, 资源汇总]
+status: done
+created: 2026-06-27
+updated: 2026-09-16
 ---
 
 # 大模型 & AI Agent 技术资源汇总

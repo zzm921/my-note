@@ -1,3 +1,11 @@
+---
+type: concept
+domain: data/mysql
+tags: [mysql, 事务隔离]
+status: done
+updated: 2026-09-16
+---
+
 ### 事务隔离级别总结
 
 **关联笔记：** [[Mysql索引详解]] | [[mysql三大日志(binlog、redo log和undo log)详解]] | [[mysql常见面试题]] | [[数据库基础]]

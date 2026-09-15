@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [NaiveRAG, RAG]
+status: done
+updated: 2026-09-16
+---
+
 # Naive RAG 朴素 RAG
 
 ## 定义

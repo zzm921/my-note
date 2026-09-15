@@ -1,3 +1,11 @@
+---
+type: moc
+domain: backend/golang
+tags: [Golang, Go, 后端]
+status: done
+updated: 2026-09-16
+---
+
 #### 项目介绍
 该项目为简单选举系统，采用 goframe进行后端接口编写，使用mysql作为数据库，redis作为缓存。
 项目提供后台管理员登录接口，登录后可进行候选人录入修改，选举录入，选举状态修改，查看选举状态等功能。为用户提供查看选举信息、投票功能。

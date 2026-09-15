@@ -1,3 +1,11 @@
+---
+type: concept
+domain: frontend
+tags: [JavaScript, 面向对象, 原型]
+status: done
+updated: 2026-09-16
+---
+
 #面对对象的升序设计
 ##理解对象
 创建对象最简单的方法

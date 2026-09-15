@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [naive, rag, 碎片]
+status: draft
+updated: 2026-09-16
+---
+
 朴素 rag
 
 文件读取，文件清洗，文件切分

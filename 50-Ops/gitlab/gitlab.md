@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ops/gitlab
+tags: [gitlab, git]
+status: done
+updated: 2026-09-16
+---
+
 #### 安装gitlab
 ```
 sudo apt-get install curl openssh-server ca-certificates postfix

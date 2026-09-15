@@ -1,3 +1,11 @@
+---
+type: concept
+domain: data/redis
+tags: [redis]
+status: done
+updated: 2026-09-16
+---
+
 ### 基础概念
 
 **关联笔记：** [[NoSQL基础知识]] | [[redis 5中基本数据类型详解]] | [[redis持久化机制详解]] | [[3种常用的缓存读写策略]]

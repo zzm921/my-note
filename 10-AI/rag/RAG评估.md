@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [RAG, 检索]
+status: done
+updated: 2026-09-16
+---
+
 ## 检索阶段
 ### context Precison -上下文精确率
 衡量召回的上下文，有多少事真正与用户问题相关的。这个指标关心的是找对的比例。

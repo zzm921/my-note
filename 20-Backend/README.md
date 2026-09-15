@@ -1,6 +1,6 @@
 ---
 type: moc
-domain: 20-Backend
+domain: backend
 status: living
 created: 2026-09-16
 updated: 2026-09-16

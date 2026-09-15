@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: network
+tags: [DNS, 应用层]
+status: done
+updated: 2026-09-16
+---
+
 DNS（domain name system）域名管理系统，是用户使用浏览器访问网址后，使用的第一个重要协议。DNS主要解决的是域名和ip地址的映射问题。![[Pasted image 20240116102852.png]]
 在一台电脑上，可能存在浏览器DNS缓存，操作系统DNS缓存，路由器DNS缓存。如果以上缓存都查询不到，那么DNS就闪亮登场了。
 目前DNS的设计采用的是分布式、层次数据库结构。DNS是应用层协议，她可以在TCP和UDP上运行，端口为53。

@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ops/gitlab
+tags: [git]
+status: done
+updated: 2026-09-16
+---
+
 Git global setup
 git config --global user.name "zhangzheming"
 git config --global user.email "zhangzheming@cocheer.net"

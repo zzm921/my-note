@@ -1,6 +1,10 @@
 ---
-created: 2026-07-01
+type: tutorial
+domain: projects
 tags: [搜韵, 诗词知识图谱, API分析, 技术调研]
+status: done
+created: 2026-07-01
+updated: 2026-09-16
 ---
 
 # 搜韵诗词知识图谱 API 整理 & 可用性分析

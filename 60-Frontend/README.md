@@ -1,6 +1,6 @@
 ---
 type: moc
-domain: 60-Frontend
+domain: frontend
 status: living
 created: 2026-09-16
 updated: 2026-09-16

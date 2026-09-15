@@ -1,3 +1,11 @@
+---
+type: howto
+domain: projects
+tags: [Agent, RAG, 诗词]
+status: done
+updated: 2026-09-16
+---
+
 # 诗词 KG-RAG Agent 方案文档
 
 ## 一、项目概述

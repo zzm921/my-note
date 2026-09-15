@@ -1,3 +1,11 @@
+---
+type: concept
+domain: frontend
+tags: [HTML, 前端基础]
+status: done
+updated: 2026-09-16
+---
+
 #html介绍
 
 ##html概述

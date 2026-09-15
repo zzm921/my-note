@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [GraphRAG, RAG]
+status: done
+updated: 2026-09-16
+---
+
 # Graph RAG 图谱增强
 
 ## 定义

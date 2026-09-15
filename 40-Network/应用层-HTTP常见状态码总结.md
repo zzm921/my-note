@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: network
+tags: [HTTP, 应用层]
+status: done
+updated: 2026-09-16
+---
+
 HTTP 状态码用于描述 HTTP 请求的结果
 
 **关联笔记：** [[应用层-常见协议总结]] | [[OSI和TCPIP网络分层模型详解]] | [[应用层-常见协议总结]]，比如 2xx 就代表请求被成功处理。

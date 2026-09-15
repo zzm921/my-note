@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ai/rag
+tags: [RAG]
+status: draft
+updated: 2026-09-16
+---
+
 rag是将外部内容接入大模型的流程 
 
 

@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: ai/rag
+tags: [AdvancedRAG, RAG]
+status: done
+updated: 2026-09-16
+---
+
 # Advanced RAG 进阶 RAG
 
 ## 定义

@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node
+tags: [NodeJs, Node]
+status: done
+updated: 2026-09-16
+---
+
 # NodeJs事件循环
 
 #### NodeJs事件循环

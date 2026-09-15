@@ -1,3 +1,11 @@
+---
+type: concept
+domain: ops/gitlab
+tags: [Gitlab, CI/CD, Git]
+status: done
+updated: 2026-09-16
+---
+
 ## Gitlab CI/CD 介绍
 
 Gitlab CI/CD 是一款用于持续集成（CI），持续交付（CD）的工具，相似的工具有Jenkins、Travis CI、GoCD等。

@@ -1,3 +1,11 @@
+---
+type: concept
+domain: data/mysql
+tags: [mysql, 面试题]
+status: done
+updated: 2026-09-16
+---
+
 # mysql常见面试题
 
 #### MySQL基础

@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/redis
+tags: [redis, 数据类型]
+status: done
+updated: 2026-09-16
+---
+
 # redis 5中基本数据类型详解
 
 redis共有5种基本数据类型：string，list，set，hash，zset（有序集合） 这五种数据类型是直接给用户使用的，是数据的保存形式，其底层实现主要依赖这8中数据结构：简单动态字符串（sds）、LinkedList（双向链表）、Dict（哈希表/词典）、SkipList（跳跃表）、Intest（整数集合）、ZipList（压缩列表）、QuickList（快速列表） Redis 5 种基本数据类型对应的底层数据结构实现如下表所示：

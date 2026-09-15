@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data
+tags: [sql]
+status: done
+updated: 2026-09-16
+---
+
 ### 基本概念
 #### 数据库术语
 - 数据库：保存有组织的数据的容器

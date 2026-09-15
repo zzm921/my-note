@@ -1,3 +1,11 @@
+---
+type: howto
+domain: backend/node/db
+tags: [eslint, sequelize]
+status: done
+updated: 2026-09-16
+---
+
 Rules
 
 为了让你对规则有个更好的理解，ESLint 对其进行了分门别类。

@@ -1,3 +1,11 @@
+---
+type: concept
+domain: backend/node
+tags: [commonJS]
+status: done
+updated: 2026-09-16
+---
+
 概述
 
 **关联笔记：** [[NodeJs事件循环]] | [[node学习node基础/ECMAScript]]

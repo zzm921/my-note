@@ -1,3 +1,11 @@
+---
+type: tutorial
+domain: data/redis
+tags: [Redis, 数据类型]
+status: done
+updated: 2026-09-16
+---
+
 除了5种基本数据类型之外，redis嗐支持3种特殊的数据类型：Bitmap、HyperLogLog、GEO。
 ### Bitmap（位图）
 Bitmap存储的是连续的二进制数字，通过Bitmap，只需要一个bit位来表示某个元素对应的值或者状态，key就是对应元素本身。我们知道8个bit可以组成一个byte，所以Bitmap本身会极大的界山存储空间。

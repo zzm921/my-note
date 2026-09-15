@@ -1,3 +1,11 @@
+---
+type: howto
+domain: ops/nas
+tags: [虚拟机, nas, 本地文档共享]
+status: done
+updated: 2026-09-16
+---
+
 ### 通过smb挂载
 1、启动飞牛ssh功能，并登录ssh
 sudo cp /etc/fstab /etc/fstab.old
