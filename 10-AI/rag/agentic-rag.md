@@ -237,4 +237,4 @@ async def agentic_rag(query):
 
 - **需要多知识库 / 外部数据源** → 工具注册表扩展新检索工具（注册新工具描述 + 执行器即可，角色与编排不改）；
 - **需要写操作 / 外部 API 调用** → 演进为通用 Agent（当前刻意限定库内只读检索）；
-- **需要更强规划** → 与 plan_execute / reflection 等推理模式联动（[plan-execute.md](plan-execute.md) / [reflection.md](reflection.md)）。
+- **需要更强规划** → 与 plan_execute / reflection 等推理模式联动（[plan-execute.md](../agent/plan-execute.md) / [reflection.md](../agent/reflection.md)）。

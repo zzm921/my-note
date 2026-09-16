@@ -9,10 +9,12 @@ updated: 2026-09-16
 # Table of contents
 
 * 导航
+  * [知识库总览（从这里开始）](库总览.md)
   * [知识库地图](01-Maps/知识库地图.md)
   * [文档体系设计与规范](01-Maps/文档体系设计与规范.md)
-  * [迁移清单（已完成）](01-Maps/迁移清单-待确认.md)
+  * [Obsidian 配置](01-Maps/Obsidian配置.md)
   * [孤岛笔记诊断](01-Maps/孤岛笔记诊断.md)
+  * [迁移清单（已完成）](01-Maps/迁移清单-待确认.md)
 
 * AI 技术（对应站点分区）
   * [AI 域地图](10-AI/AI-地图.md)
@@ -58,7 +60,6 @@ updated: 2026-09-16
 
 * [后端](20-Backend/后端-地图.md)
   * [Node.js](20-Backend/node/)
-  * [Python](20-Backend/python/)
   * [Golang](20-Backend/golang/)
 
 * [数据](30-Data/数据-地图.md)
@@ -73,10 +74,11 @@ updated: 2026-09-16
   * [GitLab](50-Ops/gitlab/)
   * [云服务](50-Ops/aliyun/)
   * [NAS](50-Ops/nas/)
-  * [虚拟机](50-Ops/vm/)
-  * [Windows](50-Ops/windows/)
 
 * [前端](60-Frontend/前端-地图.md)
+  * [HTML](60-Frontend/html.md)
+  * [CSS](60-Frontend/CSS.md)
+  * [JavaScript](60-Frontend/js.md)
   * [TypeScript](60-Frontend/typescript/)
     * [TypeScript 教程（xcatliu）](60-Frontend/typescript/TypeScript教程-xcatliu.md)
     * [基础知识](60-Frontend/typescript/基础知识.md)
@@ -85,6 +87,12 @@ updated: 2026-09-16
 * [面试题](70-Interview/面试题-地图.md)
 
 * [自研项目](80-Projects/项目实践-地图.md)
+  * [诗词 KG-RAG Agent 方案](80-Projects/诗词KG-RAG_Agent方案/诗词项目-索引.md)
+    * [项目需求与技术计划](80-Projects/诗词KG-RAG_Agent方案/项目需求与技术计划.md)
+    * [诗词 KG-RAG Agent 方案](80-Projects/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md)
+    * [诗词 AI-Agent 技术设计方案](80-Projects/诗词KG-RAG_Agent方案/诗词AI-Agent技术设计方案.md)
+    * [搜韵 API 分析](80-Projects/诗词KG-RAG_Agent方案/搜韵API分析.md)
+    * [搜韵 API 实测分析](80-Projects/诗词KG-RAG_Agent方案/搜韵API实测分析.md)
 
 * 日报
   * [日报归档说明](90-Daily/日报-地图.md)
@@ -95,7 +103,11 @@ updated: 2026-09-16
   * [空碎片清理记录](99-Archive/空碎片清理记录.md)
   * [孤儿图片清单](99-Archive/孤儿图片清单.md)
   * [RAG 旧提纲](99-Archive/rag-旧提纲/)
+  * [Agent 旧提纲](99-Archive/agent-旧提纲/)
   * [TypeScript 碎片（已合并）](99-Archive/typescript-碎片/)
+  * [碎片（待处理）](99-Archive/碎片/)
+  * [合并归档 2026-09-16](99-Archive/合并-2026-09-16/)
+  * [空壳清理归档 2026-09-16](99-Archive/空壳清理-2026-09-16/)
 
 * 模板
   * [_Templates](_Templates/)

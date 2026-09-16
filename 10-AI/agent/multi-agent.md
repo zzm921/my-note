@@ -57,7 +57,7 @@ cardId: multi-agent
 | **任务单 TaskTicket** | 分派协议：`{id, role, task, context?, deps?}`，编排者与 Worker 之间的标准化接口 |
 | **调度器** | 按任务单依赖深度分层：同层并行（受并发护栏限制）、层间串行 |
 
-> 任务单、调度、状态追踪、结果归位与汇总收敛的完整机制见 [task-system.md](task-system.md)——多智能体是任务系统的一种「编排者 + 子任务分派」形态。
+> 任务单、调度、状态追踪、结果归位与汇总收敛的完整机制见 [task-system.md](../agent-engineering/task-system.md)——多智能体是任务系统的一种「编排者 + 子任务分派」形态。
 
 ### 编排循环（analyze → dispatch → synthesize → decide）
 
@@ -95,7 +95,7 @@ cardId: multi-agent
 - **context**：可选参考上下文；
 - **deps**：依赖的前置任务 id 列表——无依赖可并行，有依赖须串行。
 
-（todo 拆解、任务单字段详解、调度波次、状态追踪与汇总收敛见 [task-system.md](task-system.md)）
+（todo 拆解、任务单字段详解、调度波次、状态追踪与汇总收敛见 [task-system.md](../agent-engineering/task-system.md)）
 
 ### 3. 并行 / 串行调度
 
@@ -188,7 +188,7 @@ compute=数值计算 / analyze=逻辑分析 / 自定义角色（研究员、开�
 
 - **模式构建**：编排者与 subagent 均用 `create_agent` 构建，subagent 经 `convert_runnable_to_tool` 包装为编排者工具，入参为任务单；
 - **单一通用 subagent**：不创建多个角色 Agent，只构建一个通用 worker subagent（带 calculator）；任务单 `role` 字段作为角色标注（compute=数值计算 / analyze=逻辑分析 / 自定义角色），执行者统一；
-- **任务单分派**：Worker 工具入参为 `{"tasks": [{"id", "role", "task", "context"}]}`，一次可派多个子任务；任务单内按依赖深度分层并行执行（同层任务并发、层间串行），事件按 task id 归位（任务单与调度的通用机制见 [task-system.md](task-system.md)）；
+- **任务单分派**：Worker 工具入参为 `{"tasks": [{"id", "role", "task", "context"}]}`，一次可派多个子任务；任务单内按依赖深度分层并行执行（同层任务并发、层间串行），事件按 task id 归位（任务单与调度的通用机制见 [task-system.md](../agent-engineering/task-system.md)）；
 - **编排阶段事件**：中间件按 worker 工具名匹配，发射 `agent_event`（dispatch / done + worker 名 + task id）；Worker 执行过程透传 thinking / message 中间事件，前端逐步展示；
 - **HITL 收敛**：Worker 无 checkpointer 不触发中断；提问（ask_user）与工具审批统一收敛到编排者层；
 - **双层护栏**：编排者与 Worker 各自挂轮数上限，防止编排者反复分派与单 Worker 内部死循环；
