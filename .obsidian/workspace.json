@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-Backend/node/tools/puppeteer.md",
+                "file": "_Templates/①概念卡-concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "puppeteer"
+              "title": "①概念卡-concept"
             }
           }
         ],
@@ -159,6 +159,7 @@
   },
   "active": "42953066312a4159",
   "lastOpenFiles": [
+    "20-Backend/node/tools/puppeteer.md",
     "20-Backend/node/pitfall/解决类似 -usr-lib64-libstdc++.md",
     "20-Backend/node/pitfall/环境安装.md",
     "20-Backend/node/db/sequelize.md",
@@ -185,7 +186,6 @@
     "10-AI/rag/rag-variants.md",
     "10-AI/rag/agentic-rag.md",
     "10-AI/rag/graph-rag.md",
-    "10-AI/rag/modular-rag.md",
     "99-Archive/碎片",
     "99-Archive/孤儿图片/Pasted image 20240229212637.png",
     "99-Archive/孤儿图片/Pasted image 20240226214925.png",
