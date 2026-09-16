@@ -42,6 +42,14 @@ SECTIONS = [
         "Agent 工程演进",
     ),
     (
+        "agent",
+        "10-AI/agent",
+        ["react", "plan-execute", "reflection", "rewoo", "llm-compiler",
+         "multi-agent", "task-driven-agent", "multimodal-agent"],
+        "ai/agent",
+        "Agent 范式",
+    ),
+    (
         "protocol",
         "10-AI/protocol",
         ["function-calling", "mcp", "a2a", "agent-skills"],
