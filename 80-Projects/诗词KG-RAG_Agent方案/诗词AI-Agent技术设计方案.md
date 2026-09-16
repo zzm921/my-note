@@ -450,3 +450,12 @@ Week 3:
 | LangChain | https://github.com/langchain-ai/langchain | RAG 框架 |
 | 清华九歌 | http://jiuge.thunlp.org | 产品体验参考 |
 | 古诗文网 | https://www.gushiwen.cn | 产品对标 |
+
+---
+
+## 导航
+
+- 项目索引：[[诗词项目-索引]]
+- 同类文档：[[项目需求与技术计划]] · [[诗词KG-RAG_Agent方案]] · [[搜韵API分析]] · [[搜韵API实测分析]]
+- 索引：[[项目实践-地图]]
+<!-- poetry-nav -->

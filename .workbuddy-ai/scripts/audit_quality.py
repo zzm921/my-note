@@ -67,21 +67,27 @@ def analyze(p: Path) -> dict:
     upd = ""
     mu = re.search(r"^updated:\s*(.+)$", fm_txt, re.M)
 
-    # 质量分档
-    if words < 80:
+    # 代码行数：代码密集型笔记（如手写实现、面试题）正文文字少但价值高
+    code_lines = sum(b.count("\n") + 1 for b in FENCE_RE.findall(body))
+
+    # 质量分档：用「正文净字数 + 代码行数×8」作为有效体量，
+    # 避免把代码密集型笔记误判为「薄」。
+    effective = words + code_lines * 8
+    if effective < 80:
         grade = "空壳"
-    elif words < 300:
+    elif effective < 300:
         grade = "薄"
-    elif words < 1200:
+    elif effective < 1200:
         grade = "一般"
-    elif words < 3000:
+    elif effective < 3000:
         grade = "充实"
     else:
         grade = "厚重"
 
     return dict(
         path=rel, top=top, size=len(raw.encode("utf-8")), lines=raw.count("\n") + 1,
-        h1=h1, h2=h2, h3=h3, words=words, code=code_blocks,
+        h1=h1, h2=h2, h3=h3, words=words, code=code_blocks, code_lines=code_lines,
+        effective=effective,
         links=links, imgs=imgs, todos=todos,
         has_fm=bool(fm_txt), updated=mu.group(1).strip() if mu else "",
         grade=grade,
