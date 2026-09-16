@@ -13,7 +13,8 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 apply = "--apply" in sys.argv
 
-DIRS = ["10-AI/agent", "10-AI/agent-engineering", "10-AI/protocol", "10-AI/eval"]
+DIRS = ["10-AI/agent", "10-AI/agent-engineering", "10-AI/protocol", "10-AI/eval",
+        "10-AI/rag"]
 
 # 站点字段名（块内保留），其余行按原样
 CARDS = ["agent-engineering", "prompt-strategy", "structured-output", "context-mgmt",

@@ -28,15 +28,29 @@ updated: 2026-09-16
     * [09 推荐系统](10-AI/ml/9_推荐系统.md)
     * [10 强化学习](10-AI/ml/10_强化学习.md)
   * RAG
-    * [RAG 总览](10-AI/rag/RAG总览.md)
-    * [01 RAG 概念与演进](10-AI/rag/01-RAG概念与演进.md)
-    * [02 Naive RAG](10-AI/rag/02-NaiveRAG朴素RAG.md)
-    * [03 Advanced RAG](10-AI/rag/03-AdvancedRAG进阶RAG.md)
-    * [04 Modular RAG](10-AI/rag/04-ModularRAG模块化RAG.md)
-    * [05 Graph RAG](10-AI/rag/05-GraphRAG图谱增强.md)
-    * [RAG 评估](10-AI/rag/RAG评估.md)
+    * [RAG 域地图](10-AI/rag/README.md)
+    * [00 RAG 总表导航](10-AI/rag/00-RAG总表导航.md)
+    * [朴素 RAG](10-AI/rag/naive-rag.md)
+    * [高级 RAG](10-AI/rag/advanced-rag.md)
+    * [模块化 RAG](10-AI/rag/modular-rag.md)
+    * [知识图谱 RAG](10-AI/rag/graph-rag.md)
+    * [智能体式 RAG](10-AI/rag/agentic-rag.md)
+    * [离线数据处理](10-AI/rag/offline-processing.md)
+    * [在线混合检索策略](10-AI/rag/online-hybrid-retrieval.md)
+    * [RAG 专项增强技术](10-AI/rag/rag-variants.md)
+    * [多知识库路由](10-AI/rag/kb-routing.md)
+    * [Text-to-SQL 结构化查询](10-AI/rag/text-to-sql.md)
   * Agent
+    * [Agent 域地图](10-AI/agent/README.md)
     * [Hermes Agent 配置指南](10-AI/agent/Hermes-Agent配置指南.md)
+  * Agent 工程演进
+    * [域地图](10-AI/agent-engineering/README.md)
+  * 协议
+    * [域地图](10-AI/protocol/README.md)
+  * 评估评测
+    * [域地图](10-AI/eval/README.md)
+  * 生产与治理
+    * [域地图](10-AI/ops/README.md)
   * 通识
     * [从机器学习到大模型](10-AI/ml/从机器学习到大模型-技术演进关键节点.md)
     * [大模型与 AI Agent 技术资源汇总](10-AI/大模型与AI-Agent技术资源汇总.md)
@@ -79,6 +93,7 @@ updated: 2026-09-16
   * [归档区说明](99-Archive/README.md)
   * [空碎片清理记录](99-Archive/空碎片清理记录.md)
   * [孤儿图片清单](99-Archive/孤儿图片清单.md)
+  * [RAG 旧提纲](99-Archive/rag-旧提纲/)
   * [TypeScript 碎片（已合并）](99-Archive/typescript-碎片/)
 
 * 模板

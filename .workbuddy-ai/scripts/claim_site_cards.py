@@ -42,6 +42,15 @@ SECTIONS = [
         "Agent 工程演进",
     ),
     (
+        "rag",
+        "10-AI/rag",
+        ["rag", "naive-rag", "advanced-rag", "modular-rag", "graph-rag", "agentic-rag",
+         "rag-variants", "offline-processing", "online-hybrid-retrieval", "kb-routing",
+         "text-to-sql"],
+        "ai/rag",
+        "RAG 范式与工程",
+    ),
+    (
         "agent",
         "10-AI/agent",
         ["react", "plan-execute", "reflection", "rewoo", "llm-compiler",
@@ -71,6 +80,12 @@ SECTIONS = [
         "生产与治理",
     ),
 ]
+
+
+# 目标文件名覆盖（卡片 id 与期望文件名不同时）
+FILENAME_OVERRIDE = {
+    ("rag", "rag"): "00-RAG总表导航",
+}
 
 
 def parse_card(path: pathlib.Path):
@@ -161,8 +176,9 @@ for section, rel, cards, domain, cn in SECTIONS:
             print(f"  !! 无 frontmatter：{cid}")
             continue
         note = build_note(cid, fm, body, section, domain, section)
-        dst = target_dir / f"{cid}.md"
-        print(f"  {cid:24s} → {rel}/{cid}.md  ({len(note.encode('utf-8'))}B)")
+        fname = FILENAME_OVERRIDE.get((section, cid), cid)
+        dst = target_dir / f"{fname}.md"
+        print(f"  {cid:24s} → {rel}/{fname}.md  ({len(note.encode('utf-8'))}B)")
         if apply:
             target_dir.mkdir(parents=True, exist_ok=True)
             if dst.exists():

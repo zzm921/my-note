@@ -15,38 +15,49 @@ updated: 2026-09-16
 | 子目录 | 主题 | 站点分区 | 现有笔记 |
 |---|---|---|---|
 | [[10-AI/agent-engineering/README\|agent-engineering]] | Agent 工程演进（Prompt → Context → Harness → Loop → Graph） | `agent-engineering` | ✅ 13 篇（已认领） |
-| [[10-AI/agent/README\|agent]] | Agent 范式（怎么跑） | `agent` | 待建（旧提纲在 `99-Archive/`） |
-| [[10-AI/rag/README\|rag]] | RAG 范式与工程 | `rag` | ✅ 9 篇 |
+| [[10-AI/agent/README\|agent]] | Agent 范式（怎么跑） | `agent` | ✅ 8 篇（已认领） |
+| [[10-AI/rag/README\|rag]] | RAG 范式与工程（怎么检索） | `rag` | ✅ 11 篇（已认领） |
 | [[10-AI/protocol/README\|protocol]] | 协议（函数调用 / MCP / A2A / Skills） | `protocol` | ✅ 4 篇（已认领） |
 | [[10-AI/eval/README\|eval]] | 评估评测 | `eval` | ✅ 4 篇（已认领） |
 | [[10-AI/ops/README\|ops]] | 生产与治理 | `ops` | 📍 复用 agent-engineering 的 6 张卡 |
-| [[10-AI/ml/README\|ml]] | 机器学习课程笔记 | `ml` | ✅ 12 篇 |
+| [[10-AI/ml/README\|ml]] | 机器学习课程笔记 | `ml` | ✅ 12 篇（笔记为源） |
 
 ## 学习路径建议
 
 ### 打地基
-1. [[01-RAG概念与演进]] — 先建立 RAG 全局观
+1. [[10-AI/rag/README\|rag]] — 先建立 RAG 全局观（五代范式演进）
 2. [[1_机器学习导论]] — 建立 ML 全景框架
 
 ### 进 Agent
-3. `agent/` — ReAct → Plan-Execute → Reflection → Multi-Agent（旧提纲可先看）
+3. [[10-AI/agent/README\|agent]] — ReAct → Plan-Execute → Reflection → Multi-Agent
 4. [[agent-engineering]] — 理解「瓶颈外移」这条主线
 
 ### 工程化
-5. `rag/03~05` — Advanced / Modular / Graph
+5. [[modular-rag]] / [[graph-rag]] / [[agentic-rag]] — 进阶与自治
 6. [[10-AI/ops/README\|ops]] — 让 Agent 跑得住
 7. [[10-AI/eval/README\|eval]] — 证明 Agent 真的行
 
 ## 待补清单
 
-- [ ] `agent/`：ReAct / Plan-Execute / Reflection / Multi-Agent 四篇
-      —— 站点已有这 8 张卡，笔记库**尚未认领**，是可选的下一步
-- [ ] `ml/`：需与站点 `ml` 分区核对卡片对应关系
+- [ ] `30-Data/{linux,mongodb}`：已在 [[30-Data/README]] 登记为「待补主题」，按约定**不建空目录占位**
+- [ ] 站点侧同步脚本（`sync_to_site.py`）：笔记 → 站点的自动回写，暂缓
 
-> 已认领的分区（`agent-engineering` / `protocol` / `eval`）：笔记库已是写作源，
-> 改笔记 → 跑同步脚本 → 站点生效。详见各域 README 的「与站点的关系」。
+> 已认领的 6 个分区（`agent-engineering` / `agent` / `rag` / `protocol` / `eval` / `ops`）：
+> 笔记库已是写作源，改笔记 → 跑同步脚本 → 站点生效。详见各域 README 的「与站点的关系」。
+> `ml` 例外：内容以笔记为准，只补了发布声明。
+
+## 源的方向（重要）
+
+| 域 | 谁的版本更完整 | 处理方式 |
+|---|---|---|
+| `agent-engineering` / `agent` / `protocol` / `eval` | 相当 | 反向认领站点卡片为笔记源 |
+| `rag` | **站点更成熟**（卡片 7~27KB vs 旧提纲 1.7~2.9KB） | 反向认领，旧提纲归档到 `99-Archive/rag-旧提纲/` |
+| `ml` | **笔记更完整**（14~16KB vs 卡片 4~5KB） | 笔记为源，只补 `publish` 声明 |
+
+> 判断依据：先抽 3 对同名笔记/卡片比字节数与结构，再决定谁当源。**不要默认笔记一定更全。**
 
 ## 旧内容去向
 
-`99-Archive/agent-旧提纲/` 下的 29 篇旧提纲曾覆盖本域大部分主题，但内容单薄（多为 1~2KB 提纲）。
-**`agent-engineering` / `protocol` / `eval` 三域已由认领的正式笔记取代；`agent` 域仍可参考旧提纲。**
+`99-Archive/agent-旧提纲/` 下的 29 篇旧提纲曾覆盖本域大部分主题，但内容单薄（多为 1~2KB 提纲），
+**六个已认领分区均已由正式笔记取代**。
+`99-Archive/rag-旧提纲/` 存放 RAG 的 9 篇旧提纲，同样已被取代。
