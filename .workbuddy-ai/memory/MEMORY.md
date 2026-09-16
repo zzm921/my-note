@@ -30,15 +30,35 @@
 
 ## 站点卡片认领与发布字段
 
-- **已认领**：`10-AI/agent-engineering/`(13) `10-AI/protocol/`(4) `10-AI/eval/`(4) 共 21 篇，
-  由 `my-agent-lab/backend/content/*.md` 反向生成，**笔记库现为写作源**。
-- `10-AI/ops/` **不持有实体笔记**：站点的 `ops` 分区与 `agent-engineering` Harness 层
-  是同一批 6 张卡（交叉视图），实体统一在 `agent-engineering/`。
+- **已全部认领**（站点 7 分区 → 笔记库）：
+
+  | 站点分区 | 卡片数 | 笔记库位置 | 备注 |
+  |---|---|---|---|
+  | `agent-engineering` | 7（+Harness 7） | `10-AI/agent-engineering/` | 13 篇，已认领 |
+  | `agent` | 8 | `10-AI/agent/` | 8 篇，已认领 |
+  | `rag` | 13 | `10-AI/rag/` | 11 篇（另 2 篇评评估归 `eval/`） |
+  | `protocol` | 4 | `10-AI/protocol/` | 4 篇，已认领 |
+  | `eval` | 4 | `10-AI/eval/` | 4 篇，已认领 |
+  | `ops` | 6 | — | ✅ 复用 `agent-engineering` Harness 层 |
+  | `ml` | 4 | `10-AI/ml/` | 笔记为源，只补发布声明 |
+
 - **frontmatter 分层**：根级放笔记规范字段；站点渲染字段收进 `site_meta:` 嵌套块
   （`id/name/icon/difficulty/accent/prompts/techFilters/…`）；另加
   `publish: true` / `site: <分区>` / `cardId: <id>`。
   ⚠️ 站点字段**不要平铺**，否则 `tags` 键重复、YAML 解析会丢字段。
-- 尚未认领：站点 `agent` 分区 8 张卡。
+- `10-AI/ops/` **不持有实体笔记**：站点的 `ops` 分区与 `agent-engineering` Harness 层
+  是同一批 6 张卡（交叉视图），实体统一在 `agent-engineering/`。
+
+## ⚠️ 认领前必须抽样判定「谁是源」
+
+**不要默认笔记库更全**——实测两边都可能更成熟，方向反了会把好内容覆盖掉：
+
+| 域 | 比对 | 结论 |
+|---|---|---|
+| `rag` | 站点卡片 7~27KB vs 笔记旧提纲 1.7~2.9KB | **站点为源** → 反向认领，旧提纲归档到 `99-Archive/rag-旧提纲/` |
+| `ml` | 笔记 14~16KB vs 站点卡片 4~5KB | **笔记为源** → 只补 3 行发布声明 |
+
+做法：先挑 3 对同名/同 id 文件比字节数与结构，再定整批方向。
 
 ## 附件约定
 
@@ -68,6 +88,24 @@
 
 - `99-Archive/` 只进不出，**归档 ≠ 删除**，且必登记（写入 `99-Archive/README.md` 或专项清单）。
 - 合并/重命名后原文归档，不在主区留同名副本，引用改指向新合并稿。
+- 现有归档子目录：`agent-旧提纲/` `rag-旧提纲/` `typescript-碎片/` `碎片/`。
+  （`孤儿图片/` 已撤销——那 23 张全是活图，已还原至 `99-Attachments/`）
+- ⚠️ 归档后要跑**全库断链检查**；注意 `01-Maps/迁移清单-待确认.md` 是纯路径表（无 `[[`），
+  不算断链，别误改。
+- 归档用 Python `shutil.move` / `Path.replace`，**不要用 git 的中文路径子命令**。
+
+## 有用脚本（`.workbuddy-ai/scripts/`）
+
+| 脚本 | 用途 |
+|---|---|
+| `claim_site_cards.py` | 从站点卡片反向认领生成笔记源（`SECTIONS` 声明分区/目录/卡片；默认 dry-run） |
+| `fix_site_meta.py` | 把平铺的站点字段收敛进 `site_meta:` 块，消除重复键（改 `DIRS` 列表） |
+| `fix_gitbook_imgs.py` | GitBook 相对路径 → `![[wiki-embed]]` |
+| `archive_rag_stubs.py` | 把被取代的薄提纲搬入 `99-Archive/`（可改 `STUBS` 复用） |
+| `add_frontmatter.py` | 全库补 frontmatter（带人工 `OVERRIDE` 表） |
+| `merge_ts.py` | 合并碎片笔记 |
+
+> 习惯：一次性脚本前加 `_`（如 `_check_xxx.py`），常驻可复用脚本不加。
 
 ## 环境坑（Windows）
 
