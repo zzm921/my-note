@@ -14,32 +14,32 @@ updated: 2026-09-16
 
 | 子目录 | 主题 | 站点分区 | 现有笔记 |
 |---|---|---|---|
-| [[10-AI/agent-engineering/README\|agent-engineering]] | Agent 工程演进（Prompt → Context → Harness → Loop → Graph） | `agent-engineering` | ✅ 13 篇（已认领） |
-| [[10-AI/agent/README\|agent]] | Agent 范式（怎么跑） | `agent` | ✅ 8 篇（已认领） |
-| [[10-AI/rag/README\|rag]] | RAG 范式与工程（怎么检索） | `rag` | ✅ 11 篇（已认领） |
-| [[10-AI/protocol/README\|protocol]] | 协议（函数调用 / MCP / A2A / Skills） | `protocol` | ✅ 4 篇（已认领） |
-| [[10-AI/eval/README\|eval]] | 评估评测 | `eval` | ✅ 4 篇（已认领） |
-| [[10-AI/ops/README\|ops]] | 生产与治理 | `ops` | 📍 复用 agent-engineering 的 6 张卡 |
-| [[10-AI/ml/README\|ml]] | 机器学习课程笔记 | `ml` | ✅ 12 篇（笔记为源） |
+| [[Agent工程演进-地图\|agent-engineering]] | Agent 工程演进（Prompt → Context → Harness → Loop → Graph） | `agent-engineering` | ✅ 13 篇（已认领） |
+| [[Agent范式-地图\|agent]] | Agent 范式（怎么跑） | `agent` | ✅ 8 篇（已认领） |
+| [[RAG-地图\|rag]] | RAG 范式与工程（怎么检索） | `rag` | ✅ 11 篇（已认领） |
+| [[协议-地图\|protocol]] | 协议（函数调用 / MCP / A2A / Skills） | `protocol` | ✅ 4 篇（已认领） |
+| [[评估评测-地图\|eval]] | 评估评测 | `eval` | ✅ 4 篇（已认领） |
+| [[生产治理-地图\|ops]] | 生产与治理 | `ops` | 📍 复用 agent-engineering 的 6 张卡 |
+| [[机器学习-地图\|ml]] | 机器学习课程笔记 | `ml` | ✅ 12 篇（笔记为源） |
 
 ## 学习路径建议
 
 ### 打地基
-1. [[10-AI/rag/README\|rag]] — 先建立 RAG 全局观（五代范式演进）
+1. [[RAG-地图\|rag]] — 先建立 RAG 全局观（五代范式演进）
 2. [[1_机器学习导论]] — 建立 ML 全景框架
 
 ### 进 Agent
-3. [[10-AI/agent/README\|agent]] — ReAct → Plan-Execute → Reflection → Multi-Agent
+3. [[Agent范式-地图\|agent]] — ReAct → Plan-Execute → Reflection → Multi-Agent
 4. [[agent-engineering]] — 理解「瓶颈外移」这条主线
 
 ### 工程化
 5. [[modular-rag]] / [[graph-rag]] / [[agentic-rag]] — 进阶与自治
-6. [[10-AI/ops/README\|ops]] — 让 Agent 跑得住
-7. [[10-AI/eval/README\|eval]] — 证明 Agent 真的行
+6. [[生产治理-地图\|ops]] — 让 Agent 跑得住
+7. [[评估评测-地图\|eval]] — 证明 Agent 真的行
 
 ## 待补清单
 
-- [ ] `30-Data/{linux,mongodb}`：已在 [[30-Data/README]] 登记为「待补主题」，按约定**不建空目录占位**
+- [ ] `30-Data/{linux,mongodb}`：已在 [[数据-地图]] 登记为「待补主题」，按约定**不建空目录占位**
 - [ ] 站点侧同步脚本（`sync_to_site.py`）：笔记 → 站点的自动回写，暂缓
 
 > 已认领的 6 个分区（`agent-engineering` / `agent` / `rag` / `protocol` / `eval` / `ops`）：

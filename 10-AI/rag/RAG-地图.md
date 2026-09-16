@@ -10,7 +10,7 @@ updated: 2026-09-16
 # RAG 范式与工程 · 域地图
 
 > 「怎么检索」——外部知识怎么进来、怎么被找到、怎么被用上。
-> 与 [[10-AI/agent/README|Agent 范式]] 的分界：那边讲**循环怎么转**，这边讲**上下文怎么来**。`agentic-rag` 是两条线的交汇点。
+> 与 [[Agent范式-地图|Agent 范式]] 的分界：那边讲**循环怎么转**，这边讲**上下文怎么来**。`agentic-rag` 是两条线的交汇点。
 > 本域 11 篇**反向认领自站点 `rag` 分区**，现已成为该分区的写作源。
 
 ## 范式演进脉络
@@ -76,11 +76,11 @@ updated: 2026-09-16
 `01-RAG概念与演进` / `02-NaiveRAG朴素RAG` / `03-AdvancedRAG进阶RAG` / `04-ModularRAG模块化RAG` /
 `05-GraphRAG图谱增强` / `RAG总览` / `RAG评估` / `advanced-rag-碎片` / `naive-rag-碎片`
 
-> 注：原 `RAG评估.md` 属**评估**主题，正式内容已归入 [[10-AI/eval/README|eval 域]] 的
+> 注：原 `RAG评估.md` 属**评估**主题，正式内容已归入 [[评估评测-地图|eval 域]] 的
 > [[rag-eval]] 与 [[rag-online-eval]]，不在本域重复。
 
 ## 交叉引用
 
 - [[10-AI/eval/rag-eval|rag-eval]] / [[10-AI/eval/rag-online-eval|rag-online-eval]] —— RAG 的评估指标与线上评估
-- [[10-AI/agent/README|Agent 范式]] —— `agentic-rag` 的循环形态可对照 [[react]] / [[plan-execute]]
-- [[10-AI/ops/README|生产与治理]] —— RAG 上线的成本、缓存、可观测性约束
+- [[Agent范式-地图|Agent 范式]] —— `agentic-rag` 的循环形态可对照 [[react]] / [[plan-execute]]
+- [[生产治理-地图|生产与治理]] —— RAG 上线的成本、缓存、可观测性约束

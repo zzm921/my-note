@@ -1,0 +1,1954 @@
+{
+  "双向孤立": [
+    {
+      "size": 3679,
+      "path": "SUMMARY.md",
+      "top": "(根)",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 650,
+      "path": "库总览.md",
+      "top": "(根)",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 310,
+      "path": "欢迎.md",
+      "top": "(根)",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1264,
+      "path": "20-Backend/后端-地图.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 5698,
+      "path": "30-Data/sql语法基础.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 22489,
+      "path": "40-Network/HTTP协议详解.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 35986,
+      "path": "40-Network/网络原理基础(上).md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 906,
+      "path": "40-Network/计算机网络-地图.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1373,
+      "path": "50-Ops/运维-地图.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 3362,
+      "path": "50-Ops/需加固问题.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1817,
+      "path": "60-Frontend/CSS.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 15906,
+      "path": "60-Frontend/html.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 898,
+      "path": "60-Frontend/前端-地图.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 703,
+      "path": "70-Interview/面试题-地图.md",
+      "top": "70-Interview",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 866,
+      "path": "90-Daily/日报-地图.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 377,
+      "path": "_Templates/①概念卡-concept.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 428,
+      "path": "_Templates/②教程卡-tutorial.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 475,
+      "path": "_Templates/③实操手册-howto.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 513,
+      "path": "_Templates/④踩坑记录-issue.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 480,
+      "path": "_Templates/⑤地图-moc.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 516,
+      "path": "_Templates/⑥日报-daily.md",
+      "top": "_Templates",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 3496,
+      "path": "99-Archive/agent-旧提纲/00-Agent知识体系总览.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1702,
+      "path": "99-Archive/rag-旧提纲/01-RAG概念与演进.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1919,
+      "path": "99-Archive/rag-旧提纲/02-NaiveRAG朴素RAG.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2597,
+      "path": "99-Archive/rag-旧提纲/03-AdvancedRAG进阶RAG.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2927,
+      "path": "99-Archive/rag-旧提纲/04-ModularRAG模块化RAG.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2389,
+      "path": "99-Archive/rag-旧提纲/05-GraphRAG图谱增强.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 577,
+      "path": "99-Archive/rag-旧提纲/advanced-rag-碎片.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 330,
+      "path": "99-Archive/rag-旧提纲/naive-rag-碎片.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 458,
+      "path": "99-Archive/rag-旧提纲/RAG总览.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2266,
+      "path": "99-Archive/rag-旧提纲/RAG评估.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 11390,
+      "path": "99-Archive/typescript-碎片/1基础.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 12826,
+      "path": "99-Archive/typescript-碎片/2声明文件.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 840,
+      "path": "99-Archive/typescript-碎片/3内置对象.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 4890,
+      "path": "99-Archive/typescript-碎片/4进阶.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1132,
+      "path": "99-Archive/typescript-碎片/5类.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 52,
+      "path": "99-Archive/碎片/ELK安装链接.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 70,
+      "path": "99-Archive/碎片/nest.js.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 7,
+      "path": "99-Archive/碎片/NLP实践-spacy.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 38,
+      "path": "99-Archive/碎片/格式化问题.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 127,
+      "path": "99-Archive/碎片/语音识别-token.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1136,
+      "path": "99-Archive/agent-旧提纲/01-基础概念/01-Agent是什么.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1282,
+      "path": "99-Archive/agent-旧提纲/01-基础概念/02-Agent与LLM、RAG的区别.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1617,
+      "path": "99-Archive/agent-旧提纲/01-基础概念/03-Agentic RAG.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2561,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/01-五大核心组件.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1264,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/02-感知层.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1498,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/03-记忆层.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1535,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/04-规划推理层.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1668,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/05-工具行动层.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1365,
+      "path": "99-Archive/agent-旧提纲/02-核心架构/06-输出层.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1461,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/01-工具调用与FunctionCalling.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1524,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/02-规划与任务分解.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1559,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/03-反思与自我修正.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1380,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/04-上下文与状态管理.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1689,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/05-记忆机制.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1573,
+      "path": "99-Archive/agent-旧提纲/03-核心能力/06-多智能体协作.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1457,
+      "path": "99-Archive/agent-旧提纲/04-构建范式/01-ReAct.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1416,
+      "path": "99-Archive/agent-旧提纲/04-构建范式/02-Plan-and-Execute.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1617,
+      "path": "99-Archive/agent-旧提纲/04-构建范式/03-Reflexion.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1641,
+      "path": "99-Archive/agent-旧提纲/04-构建范式/04-Toolformer与工具学习.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1525,
+      "path": "99-Archive/agent-旧提纲/04-构建范式/05-多Agent编排范式.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1795,
+      "path": "99-Archive/agent-旧提纲/05-工程实现/01-从零搭建实施步骤.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1631,
+      "path": "99-Archive/agent-旧提纲/05-工程实现/02-主流框架与平台对比.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1590,
+      "path": "99-Archive/agent-旧提纲/05-工程实现/03-Prompt与角色设计.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1680,
+      "path": "99-Archive/agent-旧提纲/05-工程实现/04-权限与安全护栏.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1820,
+      "path": "99-Archive/agent-旧提纲/05-工程实现/05-容错重试与可观测性.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1691,
+      "path": "99-Archive/agent-旧提纲/06-测评优化/01-测评体系.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1386,
+      "path": "99-Archive/agent-旧提纲/06-测评优化/02-基准与数据集.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1895,
+      "path": "99-Archive/agent-旧提纲/07-应用场景/01-典型应用场景.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 5542,
+      "path": "90-Daily/2026/2026-06-28.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 4386,
+      "path": "90-Daily/2026/2026-06-29.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 7600,
+      "path": "90-Daily/2026/2026-07-01.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 7639,
+      "path": "90-Daily/2026/2026-07-02.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 7683,
+      "path": "90-Daily/2026/2026-07-04.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 8489,
+      "path": "90-Daily/2026/2026-07-05.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9098,
+      "path": "90-Daily/2026/2026-07-06.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9110,
+      "path": "90-Daily/2026/2026-07-07.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9364,
+      "path": "90-Daily/2026/2026-07-08.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13975,
+      "path": "90-Daily/2026/2026-07-10.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 11549,
+      "path": "90-Daily/2026/2026-07-12.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10770,
+      "path": "90-Daily/2026/2026-07-13.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 6973,
+      "path": "90-Daily/2026/2026-07-14.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 8217,
+      "path": "90-Daily/2026/2026-07-16.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10338,
+      "path": "90-Daily/2026/2026-08-01.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10643,
+      "path": "90-Daily/2026/2026-08-02.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9468,
+      "path": "90-Daily/2026/2026-08-04.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 11315,
+      "path": "90-Daily/2026/2026-08-06.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 11907,
+      "path": "90-Daily/2026/2026-08-07.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 12415,
+      "path": "90-Daily/2026/2026-08-08.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10590,
+      "path": "90-Daily/2026/2026-08-09.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13135,
+      "path": "90-Daily/2026/2026-08-10.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13390,
+      "path": "90-Daily/2026/2026-08-11.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 15134,
+      "path": "90-Daily/2026/2026-08-12.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10365,
+      "path": "90-Daily/2026/2026-08-13.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13098,
+      "path": "90-Daily/2026/2026-08-14.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 12348,
+      "path": "90-Daily/2026/2026-08-15.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 12957,
+      "path": "90-Daily/2026/2026-08-16.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 18002,
+      "path": "90-Daily/2026/2026-08-17.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 27449,
+      "path": "90-Daily/2026/2026-08-18.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9124,
+      "path": "90-Daily/2026/2026-08-19.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10824,
+      "path": "90-Daily/2026/2026-08-20.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14731,
+      "path": "90-Daily/2026/2026-08-21.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14101,
+      "path": "90-Daily/2026/2026-08-22.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 11625,
+      "path": "90-Daily/2026/2026-08-23.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 12102,
+      "path": "90-Daily/2026/2026-08-24.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 6756,
+      "path": "90-Daily/2026/2026-09-16.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 9251,
+      "path": "80-Projects/诗词KG-RAG_Agent方案/搜韵API分析.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 5424,
+      "path": "80-Projects/诗词KG-RAG_Agent方案/搜韵API实测分析.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14028,
+      "path": "80-Projects/诗词KG-RAG_Agent方案/项目需求与技术计划.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 39067,
+      "path": "60-Frontend/vue/Vue面试题.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14675,
+      "path": "50-Ops/aliyun/负载均衡.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 187,
+      "path": "50-Ops/docker/docker常用命令.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 6069,
+      "path": "50-Ops/gitlab/gitlab升级指南-安装包.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14602,
+      "path": "50-Ops/gitlab/git操作.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 8717,
+      "path": "50-Ops/gitlab/自动化部署培训.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 827,
+      "path": "50-Ops/nas/虚拟机安装飞牛nas后，本地文档共享.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 393,
+      "path": "50-Ops/vm/centos.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 148,
+      "path": "50-Ops/windows/激活.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 4626,
+      "path": "30-Data/mysql/mysql优化.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 8519,
+      "path": "30-Data/mysql/MySQL高性能优化规范建议.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2749,
+      "path": "30-Data/redis/Redis 3 种特殊数据类型详解.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 5629,
+      "path": "20-Backend/golang/Golang-地图.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 10305,
+      "path": "20-Backend/node/js知识.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 743,
+      "path": "20-Backend/node/node进程卡死分析.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 5243,
+      "path": "20-Backend/node/深入浅出的node之异步i-o.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 84588,
+      "path": "20-Backend/node/狼叔：如何正确的学习Node.js.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 333,
+      "path": "20-Backend/python/pip下载慢配置阿里源.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 18554,
+      "path": "20-Backend/node/db/eslint-sequelize规范.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 47261,
+      "path": "20-Backend/node/db/sequelize.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 933,
+      "path": "20-Backend/node/pitfall/环境安装.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 4314,
+      "path": "20-Backend/node/pitfall/解决类似 -usr-lib64-libstdc++.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 2672,
+      "path": "20-Backend/node/vscode/eslint.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 1623,
+      "path": "20-Backend/node/vscode/插件使用.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 17108,
+      "path": "10-AI/ml/10_强化学习.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13497,
+      "path": "10-AI/ml/2_线性回归模型.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14627,
+      "path": "10-AI/ml/3_梯度下降.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 16689,
+      "path": "10-AI/ml/4_分类与逻辑回归.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 15031,
+      "path": "10-AI/ml/5_神经网络.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 14140,
+      "path": "10-AI/ml/6_模型评估与调优.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 13244,
+      "path": "10-AI/ml/7_决策树.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 20269,
+      "path": "10-AI/ml/8_非监督学习.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    },
+    {
+      "size": 17691,
+      "path": "10-AI/ml/9_推荐系统.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 0
+    }
+  ],
+  "仅有出链": [
+    {
+      "size": 2090,
+      "path": "01-Maps/知识库地图.md",
+      "top": "01-Maps",
+      "exempt": false,
+      "out": 2,
+      "in": 0
+    },
+    {
+      "size": 3070,
+      "path": "10-AI/AI-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 13,
+      "in": 0
+    },
+    {
+      "size": 12265,
+      "path": "40-Network/网络原理基础(下).md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 5,
+      "in": 0
+    },
+    {
+      "size": 11754,
+      "path": "70-Interview/nodejs.md",
+      "top": "70-Interview",
+      "exempt": false,
+      "out": 2,
+      "in": 0
+    },
+    {
+      "size": 647,
+      "path": "80-Projects/项目实践-地图.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 1,
+      "in": 0
+    },
+    {
+      "size": 1428,
+      "path": "99-Archive/归档区-地图.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 3,
+      "in": 0
+    },
+    {
+      "size": 8962,
+      "path": "50-Ops/gitlab/gitlab.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 5,
+      "in": 0
+    },
+    {
+      "size": 18514,
+      "path": "30-Data/mysql/MySQL知识点.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 2,
+      "in": 0
+    },
+    {
+      "size": 17799,
+      "path": "30-Data/redis/redis常见面试题.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 4,
+      "in": 0
+    },
+    {
+      "size": 7509,
+      "path": "20-Backend/node/commonJS.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 2,
+      "in": 0
+    },
+    {
+      "size": 12371,
+      "path": "20-Backend/node/Promise详解.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 4,
+      "in": 0
+    },
+    {
+      "size": 21248,
+      "path": "20-Backend/node/深入浅出的nodejs.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 4,
+      "in": 0
+    },
+    {
+      "size": 5865,
+      "path": "20-Backend/node/高级.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 2,
+      "in": 0
+    },
+    {
+      "size": 5708,
+      "path": "20-Backend/node/tools/puppeteer.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 1,
+      "in": 0
+    },
+    {
+      "size": 11130,
+      "path": "10-AI/ml/从机器学习到大模型-技术演进关键节点.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 4,
+      "in": 0
+    }
+  ],
+  "仅有入链": [
+    {
+      "size": 19180,
+      "path": "01-Maps/文档体系设计与规范.md",
+      "top": "01-Maps",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 21141,
+      "path": "01-Maps/迁移清单-待确认.md",
+      "top": "01-Maps",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 1888,
+      "path": "30-Data/数据-地图.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1385,
+      "path": "60-Frontend/js.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 3511,
+      "path": "99-Archive/孤儿图片清单.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1858,
+      "path": "99-Archive/空碎片清理记录.md",
+      "top": "99-Archive",
+      "exempt": true,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 4086,
+      "path": "90-Daily/2026/2026-06-27.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 7393,
+      "path": "90-Daily/2026/2026-06-30.md",
+      "top": "90-Daily",
+      "exempt": true,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 17851,
+      "path": "80-Projects/诗词KG-RAG_Agent方案/诗词AI-Agent技术设计方案.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 22192,
+      "path": "80-Projects/诗词KG-RAG_Agent方案/诗词KG-RAG_Agent方案.md",
+      "top": "80-Projects",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 18450,
+      "path": "60-Frontend/typescript/基础知识.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 13020,
+      "path": "50-Ops/docker/docker.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 9360,
+      "path": "50-Ops/gitlab/gitlab-cicd.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 5791,
+      "path": "50-Ops/gitlab/gitlab-runner.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 3310,
+      "path": "30-Data/redis/3种常用的缓存读写策略.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 450,
+      "path": "20-Backend/node/ECMAScript.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1611,
+      "path": "10-AI/agent/llm-compiler.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 12319,
+      "path": "10-AI/agent/multi-agent.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1615,
+      "path": "10-AI/agent/multimodal-agent.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 11360,
+      "path": "10-AI/agent/plan-execute.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 9449,
+      "path": "10-AI/agent/react.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 4
+    },
+    {
+      "size": 8003,
+      "path": "10-AI/agent/reflection.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1684,
+      "path": "10-AI/agent/rewoo.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1673,
+      "path": "10-AI/agent/task-driven-agent.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 10853,
+      "path": "10-AI/agent-engineering/agent-engineering.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 2315,
+      "path": "10-AI/agent-engineering/context-caching.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 12722,
+      "path": "10-AI/agent-engineering/context-mgmt.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 1669,
+      "path": "10-AI/agent-engineering/cost-governance.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 6713,
+      "path": "10-AI/agent-engineering/fault-injection.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 8977,
+      "path": "10-AI/agent-engineering/hitl.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 1647,
+      "path": "10-AI/agent-engineering/llm-gateway.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 10506,
+      "path": "10-AI/agent-engineering/memory.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 7765,
+      "path": "10-AI/agent-engineering/prompt-strategy.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 12089,
+      "path": "10-AI/agent-engineering/sandbox.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 2536,
+      "path": "10-AI/agent-engineering/security.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 6841,
+      "path": "10-AI/agent-engineering/structured-output.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 11193,
+      "path": "10-AI/agent-engineering/task-system.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 14184,
+      "path": "10-AI/eval/agent-eval.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 10830,
+      "path": "10-AI/eval/observability-eval.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 7335,
+      "path": "10-AI/eval/rag-eval.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 6
+    },
+    {
+      "size": 7787,
+      "path": "10-AI/eval/rag-online-eval.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 4
+    },
+    {
+      "size": 14398,
+      "path": "10-AI/ml/1_机器学习导论.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 2372,
+      "path": "10-AI/ml/机器学习-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 2052,
+      "path": "10-AI/protocol/a2a.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 1827,
+      "path": "10-AI/protocol/agent-skills.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 5659,
+      "path": "10-AI/protocol/function-calling.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 15858,
+      "path": "10-AI/protocol/mcp.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 8244,
+      "path": "10-AI/rag/00-RAG总表导航.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 13350,
+      "path": "10-AI/rag/advanced-rag.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 16786,
+      "path": "10-AI/rag/agentic-rag.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 7723,
+      "path": "10-AI/rag/graph-rag.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 1803,
+      "path": "10-AI/rag/kb-routing.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 27902,
+      "path": "10-AI/rag/modular-rag.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 3
+    },
+    {
+      "size": 7431,
+      "path": "10-AI/rag/naive-rag.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 9559,
+      "path": "10-AI/rag/offline-processing.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 5697,
+      "path": "10-AI/rag/online-hybrid-retrieval.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    },
+    {
+      "size": 8354,
+      "path": "10-AI/rag/rag-variants.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 1
+    },
+    {
+      "size": 10414,
+      "path": "10-AI/rag/text-to-sql.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 0,
+      "in": 2
+    }
+  ],
+  "健康": [
+    {
+      "size": 3119,
+      "path": "10-AI/大模型与AI-Agent技术资源汇总.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 3,
+      "in": 4
+    },
+    {
+      "size": 3873,
+      "path": "30-Data/NoSQL基础知识.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 4,
+      "in": 1
+    },
+    {
+      "size": 8749,
+      "path": "30-Data/数据库基础.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 2,
+      "in": 3
+    },
+    {
+      "size": 8658,
+      "path": "40-Network/OSI和TCPIP网络分层模型详解.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 14,
+      "in": 2
+    },
+    {
+      "size": 5168,
+      "path": "40-Network/传输层-TCP三次握手和四次挥手.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 5,
+      "in": 1
+    },
+    {
+      "size": 11974,
+      "path": "40-Network/传输层-TCP传输可靠性保障.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 3,
+      "in": 1
+    },
+    {
+      "size": 5725,
+      "path": "40-Network/应用层-DNS域名系统详解.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 4,
+      "in": 1
+    },
+    {
+      "size": 1498,
+      "path": "40-Network/应用层-HTTP常见状态码总结.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 3,
+      "in": 3
+    },
+    {
+      "size": 6751,
+      "path": "40-Network/应用层-常见协议总结.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 5,
+      "in": 2
+    },
+    {
+      "size": 5431,
+      "path": "40-Network/网络层-ARP协议详解.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 1,
+      "in": 1
+    },
+    {
+      "size": 4925,
+      "path": "40-Network/网络层-NAT协议详解.md",
+      "top": "40-Network",
+      "exempt": false,
+      "out": 1,
+      "in": 1
+    },
+    {
+      "size": 27366,
+      "path": "60-Frontend/typescript/TypeScript教程-xcatliu.md",
+      "top": "60-Frontend",
+      "exempt": false,
+      "out": 1,
+      "in": 1
+    },
+    {
+      "size": 7950,
+      "path": "50-Ops/cicd/酷旗自动化构建及快速部署方案.md",
+      "top": "50-Ops",
+      "exempt": false,
+      "out": 2,
+      "in": 1
+    },
+    {
+      "size": 4980,
+      "path": "30-Data/mysql/mysql三大日志(binlog、redo log和undo log)详解.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 8,
+      "in": 2
+    },
+    {
+      "size": 1004,
+      "path": "30-Data/mysql/mysql事务隔离级别.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 4,
+      "in": 2
+    },
+    {
+      "size": 22007,
+      "path": "30-Data/mysql/mysql常见面试题.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 9,
+      "in": 4
+    },
+    {
+      "size": 15907,
+      "path": "30-Data/mysql/Mysql索引详解.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 7,
+      "in": 2
+    },
+    {
+      "size": 9939,
+      "path": "30-Data/redis/redis 5中基本数据类型详解.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 2,
+      "in": 1
+    },
+    {
+      "size": 1017,
+      "path": "30-Data/redis/redis.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 4,
+      "in": 1
+    },
+    {
+      "size": 6630,
+      "path": "30-Data/redis/redis持久化机制详解.md",
+      "top": "30-Data",
+      "exempt": false,
+      "out": 2,
+      "in": 1
+    },
+    {
+      "size": 11589,
+      "path": "20-Backend/node/NodeJs事件循环.md",
+      "top": "20-Backend",
+      "exempt": false,
+      "out": 6,
+      "in": 2
+    },
+    {
+      "size": 2732,
+      "path": "10-AI/agent/Agent范式-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 10,
+      "in": 6
+    },
+    {
+      "size": 3348,
+      "path": "10-AI/agent/Hermes-Agent配置指南.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 1,
+      "in": 3
+    },
+    {
+      "size": 2528,
+      "path": "10-AI/agent-engineering/Agent工程演进-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 15,
+      "in": 3
+    },
+    {
+      "size": 1746,
+      "path": "10-AI/eval/评估评测-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 4,
+      "in": 3
+    },
+    {
+      "size": 1961,
+      "path": "10-AI/ops/生产治理-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 7,
+      "in": 4
+    },
+    {
+      "size": 1477,
+      "path": "10-AI/protocol/协议-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 4,
+      "in": 1
+    },
+    {
+      "size": 4673,
+      "path": "10-AI/rag/RAG-地图.md",
+      "top": "10-AI",
+      "exempt": false,
+      "out": 18,
+      "in": 2
+    }
+  ]
+}

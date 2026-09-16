@@ -3,20 +3,105 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:10-AI",
+      "color": {
+        "a": 1,
+        "rgb": 8353757
+      }
+    },
+    {
+      "query": "path:20-Backend",
+      "color": {
+        "a": 1,
+        "rgb": 3640029
+      }
+    },
+    {
+      "query": "path:30-Data",
+      "color": {
+        "a": 1,
+        "rgb": 1941109
+      }
+    },
+    {
+      "query": "path:40-Network",
+      "color": {
+        "a": 1,
+        "rgb": 14178864
+      }
+    },
+    {
+      "query": "path:50-Ops",
+      "color": {
+        "a": 1,
+        "rgb": 12219671
+      }
+    },
+    {
+      "query": "path:60-Frontend",
+      "color": {
+        "a": 1,
+        "rgb": 13915006
+      }
+    },
+    {
+      "query": "path:70-Interview",
+      "color": {
+        "a": 1,
+        "rgb": 6527266
+      }
+    },
+    {
+      "query": "path:80-Projects",
+      "color": {
+        "a": 1,
+        "rgb": 5458615
+      }
+    },
+    {
+      "query": "path:01-Maps",
+      "color": {
+        "a": 1,
+        "rgb": 8947584
+      }
+    },
+    {
+      "query": "path:99-Archive",
+      "color": {
+        "a": 1,
+        "rgb": 11842217
+      }
+    },
+    {
+      "query": "path:90-Daily",
+      "color": {
+        "a": 1,
+        "rgb": 13881799
+      }
+    },
+    {
+      "query": "path:_Templates",
+      "color": {
+        "a": 1,
+        "rgb": 11842217
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
+  "centerStrength": 0.45,
+  "repelStrength": 12,
+  "linkStrength": 0.8,
+  "linkDistance": 180,
   "scale": 0.5087618855792654,
   "close": true
 }
