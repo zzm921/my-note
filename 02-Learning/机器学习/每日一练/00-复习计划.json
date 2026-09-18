@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "created": "2026-09-18",
+  "intervals_days": [
+    1,
+    2,
+    4,
+    7,
+    15,
+    30,
+    60
+  ],
+  "questions": [
+    {
+      "id": "nn-Q1",
+      "chapter": "5_神经网络",
+      "title": "为什么多层线性叠加仍等价线性模型",
+      "file": "5_神经网络.md",
+      "first_seen": "2026-09-18",
+      "level": 0,
+      "next_due": "2026-09-19",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "nn-Q2",
+      "chapter": "5_神经网络",
+      "title": "2→3→1 网络的参数量与前向传播",
+      "file": "5_神经网络.md",
+      "first_seen": "2026-09-18",
+      "level": 0,
+      "next_due": "2026-09-19",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "nn-Q3",
+      "chapter": "5_神经网络",
+      "title": "sigmoid/tanh/ReLU 导数与梯度消失",
+      "file": "5_神经网络.md",
+      "first_seen": "2026-09-18",
+      "level": 0,
+      "next_due": "2026-09-19",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    }
+  ]
+}
