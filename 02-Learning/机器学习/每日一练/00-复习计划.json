@@ -56,7 +56,7 @@
       "level": 0,
       "next_due": "2026-09-20",
       "streak": 0,
-      "lapses": 0,
+      "lapses": 1,
       "status": "active"
     },
     {
@@ -68,7 +68,7 @@
       "level": 0,
       "next_due": "2026-09-20",
       "streak": 0,
-      "lapses": 0,
+      "lapses": 1,
       "status": "active"
     },
     {
@@ -86,14 +86,13 @@
   ],
   "quiz": {
     "date": "2026-09-19",
-    "pending": [
-      "nn-Q5"
-    ],
+    "pending": [],
     "asked": [
       "nn-Q1",
       "nn-Q2",
       "nn-Q3",
-      "nn-Q4"
+      "nn-Q4",
+      "nn-Q5"
     ]
   }
 }
