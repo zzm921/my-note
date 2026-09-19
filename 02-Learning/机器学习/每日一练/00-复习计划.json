@@ -71,5 +71,17 @@
       "lapses": 0,
       "status": "active"
     }
-  ]
+  ],
+  "quiz": {
+    "date": "2026-09-19",
+    "pending": [
+      "nn-Q2",
+      "nn-Q3",
+      "nn-Q4",
+      "nn-Q5"
+    ],
+    "asked": [
+      "nn-Q1"
+    ]
+  }
 }
