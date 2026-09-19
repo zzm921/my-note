@@ -17,9 +17,9 @@
       "title": "为什么多层线性叠加仍等价线性模型",
       "file": "5_神经网络.md",
       "first_seen": "2026-09-18",
-      "level": 0,
-      "next_due": "2026-09-19",
-      "streak": 0,
+      "level": 1,
+      "next_due": "2026-09-21",
+      "streak": 1,
       "lapses": 0,
       "status": "active"
     },
@@ -29,9 +29,9 @@
       "title": "2→3→1 网络的参数量与前向传播",
       "file": "5_神经网络.md",
       "first_seen": "2026-09-18",
-      "level": 0,
-      "next_due": "2026-09-19",
-      "streak": 0,
+      "level": 1,
+      "next_due": "2026-09-21",
+      "streak": 1,
       "lapses": 0,
       "status": "active"
     },
@@ -70,18 +70,30 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "nn-Q6",
+      "chapter": "5_神经网络",
+      "title": "为什么必须加非线性激活（XOR 反例）",
+      "file": "5_神经网络.md",
+      "first_seen": "2026-09-19",
+      "level": 0,
+      "next_due": "2026-09-20",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
     "date": "2026-09-19",
     "pending": [
-      "nn-Q2",
-      "nn-Q3",
       "nn-Q4",
       "nn-Q5"
     ],
     "asked": [
-      "nn-Q1"
+      "nn-Q1",
+      "nn-Q2",
+      "nn-Q3"
     ]
   }
 }
