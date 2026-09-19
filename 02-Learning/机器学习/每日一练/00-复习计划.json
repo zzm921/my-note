@@ -42,9 +42,9 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-18",
       "level": 0,
-      "next_due": "2026-09-19",
+      "next_due": "2026-09-20",
       "streak": 0,
-      "lapses": 0,
+      "lapses": 1,
       "status": "active"
     },
     {
@@ -87,13 +87,13 @@
   "quiz": {
     "date": "2026-09-19",
     "pending": [
-      "nn-Q4",
       "nn-Q5"
     ],
     "asked": [
       "nn-Q1",
       "nn-Q2",
-      "nn-Q3"
+      "nn-Q3",
+      "nn-Q4"
     ]
   }
 }
