@@ -42,15 +42,15 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-18",
       "level": 0,
-      "next_due": "2026-09-20",
+      "next_due": "2026-09-21",
       "streak": 0,
-      "lapses": 1,
+      "lapses": 2,
       "status": "active"
     },
     {
       "id": "nn-Q4",
       "chapter": "5_神经网络",
-      "title": "手算 2→3→1 网络一次前向传播（ReLU 隐藏层，a₁=0 的含义）",
+      "title": "前向传播为什么用矩阵乘（向量化）与 batch 的影响",
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
@@ -62,7 +62,7 @@
     {
       "id": "nn-Q5",
       "chapter": "5_神经网络",
-      "title": "Softmax 手算 logits=[1.0,2.0,3.0] 与减最大值的数值稳定性",
+      "title": "Softmax vs 多 sigmoid：互斥与多标签，以及减最大值的原因",
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
@@ -99,13 +99,16 @@
   "quiz": {
     "date": "2026-09-20",
     "pending": [
-      "nn-Q4",
       "nn-Q5",
       "nn-Q6",
       "nn-Q7"
     ],
     "asked": [
-      "nn-Q3"
-    ]
+      "nn-Q3",
+      "nn-Q4"
+    ],
+    "results": {
+      "nn-Q3": "wrong"
+    }
   }
 }
