@@ -54,9 +54,9 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
-      "next_due": "2026-09-20",
+      "next_due": "2026-09-21",
       "streak": 0,
-      "lapses": 1,
+      "lapses": 2,
       "status": "active"
     },
     {
@@ -66,9 +66,9 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
-      "next_due": "2026-09-20",
+      "next_due": "2026-09-21",
       "streak": 0,
-      "lapses": 1,
+      "lapses": 2,
       "status": "active"
     },
     {
@@ -99,16 +99,22 @@
   "quiz": {
     "date": "2026-09-20",
     "pending": [
-      "nn-Q5",
-      "nn-Q6",
       "nn-Q7"
     ],
     "asked": [
       "nn-Q3",
-      "nn-Q4"
+      "nn-Q4",
+      "nn-Q5",
+      "nn-Q6"
     ],
     "results": {
-      "nn-Q3": "wrong"
+      "nn-Q3": "wrong",
+      "nn-Q4": "wrong",
+      "nn-Q5": "wrong"
+    },
+    "notes": {
+      "nn-Q4": "只答到「更快/底层优化」这一半；漏了第二件事：内存与显存——激活值和中间结果随 batch 大小线性增长，batch 越大越吃显存，所以 batch 不是越大越好（受显存与首字延迟约束）",
+      "nn-Q5": "任务对应答对了（互斥多分类用 softmax、多标签用多个 sigmoid）；漏：① softmax 的归一化竞争——输出和为 1、此消彼长，sigmoid 各自独立、和不为 1 ② 为什么要先减 max(z)：exp 会溢出成 inf/NaN，而 softmax 对整体平移不变，减最大值既不改结果又避免溢出"
     }
   }
 }
