@@ -118,10 +118,34 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "review-0922-Q3",
+      "chapter": "00-巩固轮",
+      "title": "损失函数选型：为什么回归用平方误差、分类用对数损失",
+      "file": "00-巩固轮.md",
+      "first_seen": "2026-09-22",
+      "level": 0,
+      "next_due": "2026-09-23",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "review-0922-Q4",
+      "chapter": "00-巩固轮",
+      "title": "过拟合与欠拟合：识别与处理顺序（含 Agent 小模型排错）",
+      "file": "00-巩固轮.md",
+      "first_seen": "2026-09-22",
+      "level": 0,
+      "next_due": "2026-09-23",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "pending": [
       "nn-Q4",
       "nn-Q5",
@@ -130,7 +154,9 @@
       "nn-Q1",
       "nn-Q2",
       "review-0921-Q1",
-      "review-0921-Q2"
+      "review-0921-Q2",
+      "review-0922-Q3",
+      "review-0922-Q4"
     ],
     "asked": [
       "nn-Q3"
