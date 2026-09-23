@@ -166,26 +166,78 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "dt-Q1",
+      "chapter": "7_决策树",
+      "title": "决策树怎么长出来/分裂在优化什么/为何可解释",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "dt-Q2",
+      "chapter": "7_决策树",
+      "title": "熵·信息增益·基尼指数在衡量什么",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "dt-Q3",
+      "chapter": "7_决策树",
+      "title": "为什么容易过拟合·预剪枝 vs 后剪枝",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "dt-Q4",
+      "chapter": "7_决策树",
+      "title": "随机森林的两处随机与降方差原理",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "dt-Q5",
+      "chapter": "7_决策树",
+      "title": "特征重要性的坑与 Agent 工程用法",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
     "date": "2026-09-23",
     "pending": [
-      "nn-Q3",
-      "nn-Q5",
-      "nn-Q6",
-      "nn-Q7",
-      "nn-Q1",
-      "nn-Q2",
-      "review-0921-Q1",
-      "review-0921-Q2",
-      "review-0922-Q3",
-      "review-0922-Q4",
-      "review-0923-Q5",
-      "review-0923-Q6"
+      "dt-Q2",
+      "dt-Q3",
+      "dt-Q4",
+      "dt-Q5"
     ],
     "asked": [
-      "nn-Q4"
+      "dt-Q1"
     ]
   }
 }
