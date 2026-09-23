@@ -142,12 +142,36 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "review-0923-Q5",
+      "chapter": "00-巩固轮",
+      "title": "监督/无监督与回归·分类的判定（含 Agent 映射）",
+      "file": "00-巩固轮.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "review-0923-Q6",
+      "chapter": "00-巩固轮",
+      "title": "多项式回归=特征工程+线性回归、阶数与特征缩放",
+      "file": "00-巩固轮.md",
+      "first_seen": "2026-09-23",
+      "level": 0,
+      "next_due": "2026-09-24",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "pending": [
-      "nn-Q4",
+      "nn-Q3",
       "nn-Q5",
       "nn-Q6",
       "nn-Q7",
@@ -156,10 +180,12 @@
       "review-0921-Q1",
       "review-0921-Q2",
       "review-0922-Q3",
-      "review-0922-Q4"
+      "review-0922-Q4",
+      "review-0923-Q5",
+      "review-0923-Q6"
     ],
     "asked": [
-      "nn-Q3"
+      "nn-Q4"
     ]
   }
 }
