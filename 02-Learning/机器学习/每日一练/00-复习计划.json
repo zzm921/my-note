@@ -226,18 +226,57 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "dt-Q6",
+      "chapter": "7_决策树",
+      "title": "连续特征为什么不能按取值分支（阈值分裂候选点与代价）",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-24",
+      "level": 0,
+      "next_due": "2026-09-25",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "dt-Q7",
+      "chapter": "7_决策树",
+      "title": "回归树为什么用方差降低、叶子为什么输出均值",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-24",
+      "level": 0,
+      "next_due": "2026-09-25",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "pending": [
+      "nn-Q4",
+      "nn-Q5",
+      "nn-Q6",
+      "nn-Q7",
+      "nn-Q1",
+      "nn-Q2",
+      "review-0921-Q1",
+      "review-0921-Q2",
+      "review-0922-Q3",
+      "review-0922-Q4",
+      "review-0923-Q5",
+      "review-0923-Q6",
+      "dt-Q1",
       "dt-Q2",
       "dt-Q3",
       "dt-Q4",
-      "dt-Q5"
+      "dt-Q5",
+      "dt-Q6",
+      "dt-Q7"
     ],
     "asked": [
-      "dt-Q1"
+      "nn-Q3"
     ]
   }
 }
