@@ -274,15 +274,39 @@
       "streak": 0,
       "lapses": 0,
       "status": "active"
+    },
+    {
+      "id": "dt-Q10",
+      "chapter": "7_决策树",
+      "title": "随机森林 OOB=免费的验证集 / ccp_alpha 后剪枝路径 vs max_depth 预剪枝",
+      "file": "7_决策树.md",
+      "first_seen": "2026-09-26",
+      "level": 0,
+      "next_due": "2026-09-27",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
+    },
+    {
+      "id": "review-0926-Q7",
+      "chapter": "00-巩固轮",
+      "title": "为什么线性回归不适合分类：输出越界 / 异常点拉扯边界 / 平方误差非凸",
+      "file": "00-巩固轮.md",
+      "first_seen": "2026-09-26",
+      "level": 0,
+      "next_due": "2026-09-27",
+      "streak": 0,
+      "lapses": 0,
+      "status": "active"
     }
   ],
   "quiz": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "pending": [
-      "nn-Q3",
-      "nn-Q5",
       "nn-Q6",
       "nn-Q7",
+      "nn-Q3",
+      "nn-Q4",
       "nn-Q1",
       "nn-Q2",
       "review-0921-Q1",
@@ -299,10 +323,12 @@
       "dt-Q6",
       "dt-Q7",
       "dt-Q8",
-      "dt-Q9"
+      "dt-Q9",
+      "review-0926-Q7",
+      "dt-Q10"
     ],
     "asked": [
-      "nn-Q4"
+      "nn-Q5"
     ]
   }
 }
