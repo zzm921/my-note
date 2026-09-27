@@ -301,12 +301,13 @@
     }
   ],
   "quiz": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "pending": [
-      "nn-Q6",
-      "nn-Q7",
       "nn-Q3",
       "nn-Q4",
+      "nn-Q5",
+      "nn-Q6",
+      "nn-Q7",
       "nn-Q1",
       "nn-Q2",
       "review-0921-Q1",
@@ -315,7 +316,7 @@
       "review-0922-Q4",
       "review-0923-Q5",
       "review-0923-Q6",
-      "dt-Q1",
+      "review-0926-Q7",
       "dt-Q2",
       "dt-Q3",
       "dt-Q4",
@@ -324,11 +325,10 @@
       "dt-Q7",
       "dt-Q8",
       "dt-Q9",
-      "review-0926-Q7",
       "dt-Q10"
     ],
     "asked": [
-      "nn-Q5"
+      "dt-Q1"
     ]
   }
 }
