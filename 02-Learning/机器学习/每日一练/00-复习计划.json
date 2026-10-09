@@ -54,9 +54,9 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
-      "next_due": "2026-09-21",
+      "next_due": "2026-10-10",
       "streak": 0,
-      "lapses": 2,
+      "lapses": 3,
       "status": "active"
     },
     {
@@ -303,7 +303,6 @@
   "quiz": {
     "date": "2026-10-09",
     "pending": [
-      "nn-Q5",
       "nn-Q6",
       "nn-Q7",
       "nn-Q1",
@@ -327,7 +326,14 @@
       "dt-Q1"
     ],
     "asked": [
-      "nn-Q4"
-    ]
+      "nn-Q4",
+      "nn-Q5"
+    ],
+    "results": {
+      "nn-Q4": "wrong"
+    },
+    "notes": {
+      "nn-Q4": "只答到「并行/硬件加速 → 算得快」这一半；漏了第二件事：内存与显存（激活值/中间结果随 batch 线性增长），以及批处理摊薄单位成本、continuous batching 的原因与 batch 调小的场景"
+    }
   }
 }
