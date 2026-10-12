@@ -301,12 +301,12 @@
     }
   ],
   "quiz": {
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "pending": [
-      "nn-Q3",
       "nn-Q4",
       "nn-Q6",
       "nn-Q7",
+      "nn-Q5",
       "review-0921-Q1",
       "review-0921-Q2",
       "review-0922-Q3",
@@ -314,6 +314,7 @@
       "review-0923-Q5",
       "review-0923-Q6",
       "review-0926-Q7",
+      "dt-Q1",
       "dt-Q2",
       "dt-Q3",
       "dt-Q4",
@@ -323,10 +324,10 @@
       "dt-Q8",
       "dt-Q9",
       "dt-Q10",
-      "dt-Q1"
+      "nn-Q2"
     ],
     "asked": [
-      "nn-Q2"
+      "nn-Q3"
     ]
   }
 }
