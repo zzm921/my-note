@@ -54,9 +54,9 @@
       "file": "5_神经网络.md",
       "first_seen": "2026-09-19",
       "level": 0,
-      "next_due": "2026-10-11",
+      "next_due": "2026-10-15",
       "streak": 0,
-      "lapses": 4,
+      "lapses": 5,
       "status": "active"
     },
     {
@@ -303,7 +303,6 @@
   "quiz": {
     "date": "2026-10-14",
     "pending": [
-      "nn-Q6",
       "nn-Q7",
       "nn-Q5",
       "review-0921-Q1",
@@ -327,7 +326,14 @@
       "nn-Q3"
     ],
     "asked": [
-      "nn-Q4"
-    ]
+      "nn-Q4",
+      "nn-Q6"
+    ],
+    "results": {
+      "nn-Q4": "wrong"
+    },
+    "notes": {
+      "nn-Q4": "本次直接看答案、未作答（该题累计错 5 次，是当前最顽固的一题）→ 需自己讲出第二件事：激活值/中间结果的显存占用随 batch 线性增长"
+    }
   }
 }
